@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Артефакты - Heroes 3 HotA </title>
+	<meta http-equiv="Content Type" content="text/html" charset="UTF-8" />
+	<meta name="description" content="Heroes 3 HotA. Описание новых артефактов." />
+	<meta name="keywords" content="Heroes, III, Horn, of, the, Abyss, HotA, Cove, герои, 3, Рог, Бездны, Причал" />
+	<link rel="icon" href="image\monolit.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="image\monolit.ico" type="image/x-icon" />
+	
+	<link rel="stylesheet" type="text/css" href="h3style.css"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="h3style1600.css"/>
+	<script type="text/javascript" src="h3search.js" charset="utf-8"></script>
+</head>
+
+
+<body>
+<img src="image/hotabg.png" id="backgroung"></img> <a name="top"></a>
+
+
+	<div class="topdiv"><img src="gif/header_gif2.gif" id="header_gif"></img></div>
+	
+	<div class="headerdiv">
+	<h1>HEROES 3: Horn of the Abyss</h1> 
+	</div>
+	
+	<div class="bigsearchdiv">
+	<div class="searchdiv">		
+		<form name="searchform"> 		
+		<input type="text" name="searchinput" class="searchinput" value="" placeholder="найти.." size="30" maxlength="30" autocomplete="off"
+		onfocus="this.placeholder=''; incorrectinput(); strcmp();"  onblur="deleteList();" oninput="strcmp()">
+		<a class="clearbutton" onclick="clearinput();"></a>
+		</form>
+		<button class="searchbutton" onclick="findindex();"><span>поиск</span></button> 	
+
+		<ul id="searchlist"></ul>			
+	</div></div>
+	 
+	<div class="maindiv">
+	<div  class="menu">
+	<ul  class="menulist">
+	<li class="menuelement" style="margin-top:-65px;"><a href="index.html">Главная страница</a></li>
+	<li class="menuelement"><a href="changelogsH3hota.html">Изменения</a></li>
+	<li class="menuelement"><a href="coveH3hota.html">Причал</a>
+		<ul>
+		<li style="margin-top:-25px;"><a href="covebuildingsH3hota.html">Строения</a></li>
+		<li><a href="creaturesH3hota.html#covecreatures">Существа Причала</a></li>
+		<li><a href="heroesH3hota.html#coveheroes">Герои Причала</a></li>
+		<li><a href="covemageguild.html">Гильдия магов</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="creaturesH3hota.html">Существа</a></li>
+	<li class="menuelement"><a href="heroesH3hota.html">Герои</a></li>
+	<li class="menuelement"><a href="objectsH3hota.html">Объекты</a></li>
+	<li class="menuelement"><a href="artefactsH3hota.html">Артефакты</a></li>
+	</ul>
+	</div>
+	
+	
+	<div id="filler">
+		<h2 style="margin-top:5px;">Артефакты</h2>
+
+
+	<div class="arts">
+		<div class="boxtag"> <a name="art1"></a>
+		<h3>Малые артефакты</h3> 
+		<table class="arttable"> <a name="art11"></a>
+		<tr><th></th><th>Устрашающая маска</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/scarymask.png"/></td>
+		<td>
+		<b>тип</b>: разное</br>
+		<div style="margin-top: 10px;">Уменьшает боевой дух отрядов противника на 1.</div></td></tr>
+		</table>
+		</div><br><br>
+		
+
+		<div class="boxtag"> <a name="art2"></a>
+		<h3>Артефакты-сокровища</h3>
+		<table class="arttable">
+		<tr><th></th><th>Кукла шамана</th></tr> <a name="art21"></a>
+		<tr><td class="artimgtd"><img src="image/artefacts/woodoo.png"/></td>
+		<td>
+		<b>тип</b>: разное</br>
+		<div style="margin-top: 10px;">Уменьшает удачу отрядов противника на 2.</div></td></tr>
+		<tr><th></th><th><a name="art22"></a>Руны неизбежности</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/runesofdoom.png"/></td>
+		<td>
+		<b>тип</b>: разное</br>
+		<div style="margin-top: 10px;">Уменьшает удачу отрядов противника на 1.</div></td></tr>
+		<tr><th></th><th><a name="art23"></a>Кольцо подавления</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/suppring.png"/></td>
+		<td>
+		<b>тип</b>: кольцо</br>
+		<div style="margin-top: 10px;">Уменьшает боевой дух отрядов противника на 1.</div></td></tr>
+		<tr><th></th><th><a name="art24"></a>Подкова демона</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/horsehoe.png"/></td>
+		<td>
+		<b>тип</b>: разное</br>
+		<div style="margin-top: 10px;">Уменьшает удачу отрядов противника на 1.</div></td></tr>
+		</table>
+		</div><br><br>
+		
+		
+		<div  class="boxtag"> <a name="art3"></a>
+		<h3>Великие артефакты</h3>	
+		<table class="arttable">
+		<tr><th></th><th><a name="art31"></a>Трезубец могущества</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/mighttrident.png"/></td>
+		<td>
+		<b>тип</b>: оружие</br>
+		<div style="margin-top: 10px;">Повышает атаку героя на 7.</div></td></tr>
+		<tr><th></th><th><a name="art32"></a>Королевские доспехи никсов</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/nixarmour.png"/></td>
+		<td>
+		<b>тип</b>: броня</br>
+		<div style="margin-top: 10px;">Повышает силу магии героя на 6.</div></td></tr>
+		<tr><th></th><th><a name="art33"></a>Щит морской славы</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/seagloryshield.png"/></td>
+		<td>
+		<b>тип</b>: щит</br>
+		<div style="margin-top: 10px;">Повышает защиту героя на 7.</div></td></tr>
+		<tr><th></th><th><a name="art34"></a>Корона пяти морей</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/seacrown.png"/></td>
+		<td>
+		<b>тип</b>: шлем</br>
+		<div style="margin-top: 10px;">Повышает знания героя на 6.</div></td></tr>
+		<tr><th></th><th><a name="art35"></a>Накидка молчания</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/silence.png"/></td>
+		<td>
+		<b>тип</b>: плащ</br>
+		<div style="margin-top: 10px;">Отнимает у вас и у вашего противника возможность использовать заклинания 1 и 2 уровня во время боя.</div></td></tr>
+		<tr><th></th><th><a name="art36"></a>Кольцо забвения</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/oblivionring.png"/></td>
+		<td>
+		<b>тип</b>: кольцо</br>
+		<div style="margin-top: 10px;">Делает все потери в бою безвозвратными.</div></td></tr>
+		<tr><th></th><th><a name="art37"></a>Кулон разорения</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/destrpendant.png"/></td>
+		<td>
+		<b>тип</b>: ожерелье</br>
+		<div style="margin-top: 10px;">Уменьшает боевой дух отрядов противника на 2.</div></td></tr>
+		<tr><th></th><th><a name="art38"></a>Сапоги странника</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/wandererboots.png"/></td>
+		<td>
+		<b>тип</b>: сапоги</br>
+		<div style="margin-top: 10px;">Позволяет перемещаться по любой почве без штрафов.</div></td></tr>
+		</table>
+		</div><br><br>
+		
+		
+		<div  class="boxtag"> <a name="art4"></a>
+		<h3>Артефакты-реликты</h3>
+		<span class="tabtab"></span>Помимо прочих артефактов в игру было добавлено несколько реликтов.  
+		Бонусы, которые дают сборные реликты, приведены уже с учетом составных артефактов.<br><br>
+		<table class="arttable">
+		<tr><th></th><th><a name="art41"></a>Рог бездны (искл. из ГСК)</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/abysshorn.png"/></td>
+		<td>
+		<b>тип</b>: разное<br>
+		<div style="margin-top: 10px;">При гибели живого отряда в бою призывает на его место отряд Фангармов, который продолжает служить герою и после боя.
+		Общее здоровье призываемых Фангармов соответствует половине общего здоровья погибшего отряда, но их количество не больше 
+		количества существ в этом отряде. На павших Фангармов Рог не действует.</div></td></tr>
+		<tr><th></th><th><a name="art42"></a>Золотой гусь</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/goose.png"/></td>
+		<td>
+		<b>тип</b>: разное (сборный)<br><br>
+		<span class="equations">Собирается из: </span></br>
+		<span class="hintimg"><img src="image/artefacts/relicts/bggold1.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b><span class="nowrap">Бездонный мешок золота (разное).</span><br><hr><span class="nowrap">Приносит 1000 золота в день.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bggold2.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b><span class="nowrap">Бездонная сумка золота (разное).</span><br><hr><span class="nowrap">Приносит 750 золота в день.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bggold3.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b><span class="nowrap">Бездонный кошель золота (разное).</span><br><hr><span class="nowrap">Приносит 500 золота в день.</span></b></span></span>
+		<div class="space"></div><div class="space"></div><div class="space"></div>
+		<div style="margin-top: 10px;">Приносит 7000 золота в день.</div></td></tr>
+		<tr><th></th><th><a name="art43"></a>Мантия дипломата</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/dipmantle.png"/></td>
+		<td>
+		<b>тип</b>: плащ (сборный)<br><br>
+		<span class="equations">Собирается из: </span></br>
+		<span class="hintimg"><img src="image/artefacts/relicts/bgtape.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Лента посла (плащ).<br><hr><span class="nowrap">Снижает цену, уплачиваемую при сдаче, на 10%.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bgmedal.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Медаль чиновника (ожерелье).<br><hr><span class="nowrap">Снижает цену, уплачиваемую при сдаче, на 10%.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bgdipring.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Кольцо дипломата.<br><hr><span class="nowrap">Снижает цену, уплачиваемую при сдаче, на 10%.</span></b></span></span>
+		<div class="space"></div><div class="space"></div><div class="space"></div>
+		<div style="margin-top: 10px;">Снижает цену, уплачиваемую при сдаче, на 30%.</br>
+		Позволяет сбегать и сдаваться при обороне города и в битвах с нейтральными существами. Увеличивает силу армии героя 
+		в глазах нейтральных существ и Гильдии воров в 3 раза.</div></td></tr>
+		<tr><th></th><th><a name="art44"></a>Кулон отражения</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/refpendant.png"/></td>
+		<td>
+		<b>тип</b>: ожерелье (сборный)<br><br>
+		<span class="equations">Собирается из: </span></br>
+		<span class="hintimg"><img src="image/artefacts/relicts/bgrefboots.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Сапоги противодействия.<br><hr><span class="nowrap">Повышают сопротивляемость магии войск героя на 15%.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bgrefshirt.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Одеяние равновесия (плащ).<br><hr><span class="nowrap">Повышает сопротивляемость магии войск героя на 10%.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bgrefamulet.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Колье нейтрализации.<br><hr><span class="nowrap">Повышает сопротивляемость магии войск героя на 5%.</span></b></span></span>
+		<div class="space"></div><div class="space"></div><div class="space"></div>
+		<div style="margin-top: 10px;">Повышает сопротивляемость магии войск героя на 50%.</div></td></tr>
+		<tr><th></th><th><a name="art45"></a>Железный кулак огра</th></tr>
+		<tr><td class="artimgtd"><img src="image/artefacts/ogreironfist.png"/></td>
+		<td>
+		<b>тип</b>: оружие (сборный)<br><br>
+		<span class="equations">Собирается из: </span></br>
+		<span class="hintimg"><img src="image/artefacts/relicts/bgogclub.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Дубина свирепого огра.<br><hr><span class="nowrap">Повышает атаку героя на 5.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bgogshield.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Щит яростного огра.<br><hr><span class="nowrap">Повышает защиту героя на 5.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bgtunic.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Кираса короля циклопов.<br><hr><span class="nowrap">Повышает силу магии героя на 4.</span></b></span></span>
+		<span class="equations"> + </span><span class="hintimg"><img src="image/artefacts/relicts/bgcrown.png" class="artimg"/>
+		<span class="hinttagtext" style="left: -75px; top: 18px;"><b>Корона великого колдуна.<br><hr><span class="nowrap">Повышает знания героя на 4.</span></b></span></span>
+		<div class="space"></div><div class="space"></div><div class="space"></div>
+		<div style="margin-top: 10px;">+5 атаки, +5 защиты, +4 силы магии и +4 знаний.<br>
+		В начале боя накладывает на все дружественные отряды на 50 раундов заклинания Ускорение, Жажда крови, Огненный щит и Контрудар 
+		экспертного уровня.</div></td></tr>
+		</table>
+		</div>
+	</div>
+		
+		
+		<p style="text-align:center; clear:left;">Вернуться в начало <a href="#top"><img src="gif/monolit.gif" title="вернуться в начало страницы"></a></p>
+				
+	</div>
+	</div>
+
+
+	<div class="bottomdiv">
+	<div id="footer">
+		<span style="top:-8px;"><a href="https://vk.com/h3hota" target="_blank">Heroes 3 HotA Официальное сообщество</a></br>
+		<a href="http://forum.df2.ru/index.php?showforum=90" target="_blank">DF2 Официальный форум HotA</a></br></br>
+		Автор: aabb</br>
+		Моя почта: bukalin_ao@mail.ru</br>
+		</span>
+		<img src="gif/lamp.gif"></img>
+	</div>
+	</div>
+
+
+</body>
+</html>
