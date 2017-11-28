@@ -160,6 +160,8 @@ font-size: 18px;
 .boxtag {border: 2.5px solid #000080}
 .boxtag table {border: 2.5px solid #000080}
 
+.sometables {width: 660px;}
+
 .hinttagtext {
 top:22px;
 left:-130px; 
@@ -192,7 +194,7 @@ border:2.5px solid #000080;
 .covetable .coveimgtd img {width: 180px; margin-bottom: 1px;}
 
 .covemageguild .boxtag {width: 680px;}
-.sometables {width: 660px;}
+.covemageguild .sometables {width: 660px;}
 
 .mageguildtable th {font-size: 24px;}
 .mageguildtable img {margin: 5px 6px 1px 7px; width: 50px; height: 50px;}

@@ -319,6 +319,8 @@ border: 2px solid #000080;
 text-align: justify;
 }
 
+.sometables {width:550px; height:auto; position:relative; margin: 0 auto;}
+
 .hinttag {
 position:relative; 
 cursor:default; 
@@ -452,7 +454,7 @@ margin: 0 auto;
 .coveimgtd {width:100px; background-color: rgba(0, 0, 0, 0.1);}
 
 .covemageguild .boxtag {width: 550px;}
-.covemageguild .sometables {width:550px; height:auto; position:relative; margin: 0 auto;}
+.covemageguild .sometables {width:550px;}
 
 .mageguildtable {
 margin: -10px auto 0 auto;
@@ -614,7 +616,7 @@ padding: -10px;
 /*HEROES CLASS SUBPAGE*/
 
 .heroesclass .boxtag {width: 525px;}
-.heroesclass .sometables {width:523px; height:430px; margin: 0 auto;}
+.heroesclass .sometables {width:523px; height:430px;}
 
 .secsktable {
 margin: -10px auto 0 auto;
