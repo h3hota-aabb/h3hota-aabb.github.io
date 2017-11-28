@@ -1,17 +1,17 @@
-var strofindex = 'академия мореплавания, алая башня, алтарь маны, анабель, андал, артефакты-реликты, артефакты-сокровища, аспид, ассида, астра, банки, башня из слоновой кости, беатрис, бидли, великие артефакты, вертеп, винодельня, водопой, герои (причал), герои (прочие), герои кампании, головорез, городские врата, даргем, дерек, джереми, древняя лампа, дух океана, железный кулак огра, жрица моря, заклинательница, застава налетчиков, зиккурат, зилар, золотой гусь, иллор, капитан, касметра, кассиопея, кинкерия, колизей магов, кольцо забвения, кольцо подавления, консерватории, коркес, королевские доспехи никсов, корона пяти морей, корсар, кукла шамана, кулон отражения, кулон разорения, лина, малые артефакты, мантия дипломата, манфред, матрос, мириам, морской волк, морской змей, навигатор, накидка молчания, направленный выстрел (личи), направленный выстрел (магоги), нейтральные существа, никс, никс-воин, нимфа, обсерватория, обучающие объекты, объекты (прочие), океанида, опытный цех, особняк, пират, пиратская пещера, погост, подкова демона, преобразователь скелетов, причал (гильдия магов), причал (грааль), причал (особые строения), причал (строения), путеводная звезда, пушечный двор, пушка, ранлу, рог бездны, руны неизбежности, сапоги странника, сатир, святилище бехолдеров, склады, спинт, существа причала, тарк, трезубец могущества, устрашающая маска, фабрика военной техники, фангарм, фонтан молодости, форт на холме (новый), храм лояльности, храм моря, черная башня, щит морской славы, элмор, эоваций, ';
+п»їvar strofindex = 'Р°РєР°РґРµРјРёСЏ РјРѕСЂРµРїР»Р°РІР°РЅРёСЏ, Р°Р»Р°СЏ Р±Р°С€РЅСЏ, Р°Р»С‚Р°СЂСЊ РјР°РЅС‹, Р°РЅР°Р±РµР»СЊ, Р°РЅРґР°Р», Р°СЂС‚РµС„Р°РєС‚С‹-СЂРµР»РёРєС‚С‹, Р°СЂС‚РµС„Р°РєС‚С‹-СЃРѕРєСЂРѕРІРёС‰Р°, Р°СЃРїРёРґ, Р°СЃСЃРёРґР°, Р°СЃС‚СЂР°, Р±Р°РЅРєРё, Р±Р°С€РЅСЏ РёР· СЃР»РѕРЅРѕРІРѕР№ РєРѕСЃС‚Рё, Р±РµР°С‚СЂРёСЃ, Р±РёРґР»Рё, РІРµР»РёРєРёРµ Р°СЂС‚РµС„Р°РєС‚С‹, РІРµСЂС‚РµРї, РІРёРЅРѕРґРµР»СЊРЅСЏ, РІРѕРґРѕРїРѕР№, РіРµСЂРѕРё (РїСЂРёС‡Р°Р»), РіРµСЂРѕРё (РїСЂРѕС‡РёРµ), РіРµСЂРѕРё РєР°РјРїР°РЅРёРё, РіРѕР»РѕРІРѕСЂРµР·, РіРѕСЂРѕРґСЃРєРёРµ РІСЂР°С‚Р°, РґР°СЂРіРµРј, РґРµСЂРµРє, РґР¶РµСЂРµРјРё, РґСЂРµРІРЅСЏСЏ Р»Р°РјРїР°, РґСѓС… РѕРєРµР°РЅР°, Р¶РµР»РµР·РЅС‹Р№ РєСѓР»Р°Рє РѕРіСЂР°, Р¶СЂРёС†Р° РјРѕСЂСЏ, Р·Р°РєР»РёРЅР°С‚РµР»СЊРЅРёС†Р°, Р·Р°СЃС‚Р°РІР° РЅР°Р»РµС‚С‡РёРєРѕРІ, Р·РёРєРєСѓСЂР°С‚, Р·РёР»Р°СЂ, Р·РѕР»РѕС‚РѕР№ РіСѓСЃСЊ, РёР»Р»РѕСЂ, РєР°РїРёС‚Р°РЅ, РєР°СЃРјРµС‚СЂР°, РєР°СЃСЃРёРѕРїРµСЏ, РєРёРЅРєРµСЂРёСЏ, РєРѕР»РёР·РµР№ РјР°РіРѕРІ, РєРѕР»СЊС†Рѕ Р·Р°Р±РІРµРЅРёСЏ, РєРѕР»СЊС†Рѕ РїРѕРґР°РІР»РµРЅРёСЏ, РєРѕРЅСЃРµСЂРІР°С‚РѕСЂРёРё, РєРѕСЂРєРµСЃ, РєРѕСЂРѕР»РµРІСЃРєРёРµ РґРѕСЃРїРµС…Рё РЅРёРєСЃРѕРІ, РєРѕСЂРѕРЅР° РїСЏС‚Рё РјРѕСЂРµР№, РєРѕСЂСЃР°СЂ, РєСѓРєР»Р° С€Р°РјР°РЅР°, РєСѓР»РѕРЅ РѕС‚СЂР°Р¶РµРЅРёСЏ, РєСѓР»РѕРЅ СЂР°Р·РѕСЂРµРЅРёСЏ, Р»РёРЅР°, РјР°Р»С‹Рµ Р°СЂС‚РµС„Р°РєС‚С‹, РјР°РЅС‚РёСЏ РґРёРїР»РѕРјР°С‚Р°, РјР°РЅС„СЂРµРґ, РјР°С‚СЂРѕСЃ, РјРёСЂРёР°Рј, РјРѕСЂСЃРєРѕР№ РІРѕР»Рє, РјРѕСЂСЃРєРѕР№ Р·РјРµР№, РЅР°РІРёРіР°С‚РѕСЂ, РЅР°РєРёРґРєР° РјРѕР»С‡Р°РЅРёСЏ, РЅР°РїСЂР°РІР»РµРЅРЅС‹Р№ РІС‹СЃС‚СЂРµР» (Р»РёС‡Рё), РЅР°РїСЂР°РІР»РµРЅРЅС‹Р№ РІС‹СЃС‚СЂРµР» (РјР°РіРѕРіРё), РЅРµР№С‚СЂР°Р»СЊРЅС‹Рµ СЃСѓС‰РµСЃС‚РІР°, РЅРёРєСЃ, РЅРёРєСЃ-РІРѕРёРЅ, РЅРёРјС„Р°, РѕР±СЃРµСЂРІР°С‚РѕСЂРёСЏ, РѕР±СѓС‡Р°СЋС‰РёРµ РѕР±СЉРµРєС‚С‹, РѕР±СЉРµРєС‚С‹ (РїСЂРѕС‡РёРµ), РѕРєРµР°РЅРёРґР°, РѕРїС‹С‚РЅС‹Р№ С†РµС…, РѕСЃРѕР±РЅСЏРє, РїРёСЂР°С‚, РїРёСЂР°С‚СЃРєР°СЏ РїРµС‰РµСЂР°, РїРѕРіРѕСЃС‚, РїРѕРґРєРѕРІР° РґРµРјРѕРЅР°, РїСЂРµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊ СЃРєРµР»РµС‚РѕРІ, РїСЂРёС‡Р°Р» (РіРёР»СЊРґРёСЏ РјР°РіРѕРІ), РїСЂРёС‡Р°Р» (РіСЂР°Р°Р»СЊ), РїСЂРёС‡Р°Р» (РѕСЃРѕР±С‹Рµ СЃС‚СЂРѕРµРЅРёСЏ), РїСЂРёС‡Р°Р» (СЃС‚СЂРѕРµРЅРёСЏ), РїСѓС‚РµРІРѕРґРЅР°СЏ Р·РІРµР·РґР°, РїСѓС€РµС‡РЅС‹Р№ РґРІРѕСЂ, РїСѓС€РєР°, СЂР°РЅР»Сѓ, СЂРѕРі Р±РµР·РґРЅС‹, СЂСѓРЅС‹ РЅРµРёР·Р±РµР¶РЅРѕСЃС‚Рё, СЃР°РїРѕРіРё СЃС‚СЂР°РЅРЅРёРєР°, СЃР°С‚РёСЂ, СЃРІСЏС‚РёР»РёС‰Рµ Р±РµС…РѕР»РґРµСЂРѕРІ, СЃРєР»Р°РґС‹, СЃРїРёРЅС‚, СЃСѓС‰РµСЃС‚РІР° РїСЂРёС‡Р°Р»Р°, С‚Р°СЂРє, С‚СЂРµР·СѓР±РµС† РјРѕРіСѓС‰РµСЃС‚РІР°, СѓСЃС‚СЂР°С€Р°СЋС‰Р°СЏ РјР°СЃРєР°, С„Р°Р±СЂРёРєР° РІРѕРµРЅРЅРѕР№ С‚РµС…РЅРёРєРё, С„Р°РЅРіР°СЂРј, С„РѕРЅС‚Р°РЅ РјРѕР»РѕРґРѕСЃС‚Рё, С„РѕСЂС‚ РЅР° С…РѕР»РјРµ (РЅРѕРІС‹Р№), С…СЂР°Рј Р»РѕСЏР»СЊРЅРѕСЃС‚Рё, С…СЂР°Рј РјРѕСЂСЏ, С‡РµСЂРЅР°СЏ Р±Р°С€РЅСЏ, С‰РёС‚ РјРѕСЂСЃРєРѕР№ СЃР»Р°РІС‹, СЌР»РјРѕСЂ, СЌРѕРІР°С†РёР№, ';
 var indexarr = strofindex.split(', ');
 var flag = 0;
 
 
-/*очистить строку поиска*/
+/*РѕС‡РёСЃС‚РёС‚СЊ СЃС‚СЂРѕРєСѓ РїРѕРёСЃРєР°*/
 function clearinput()
 {
-	if ((flag == 0) && (searchform.searchinput.value == "Некорректный ввод")) return;
+	if ((flag == 0) && (searchform.searchinput.value == "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ")) return;
 	searchform.searchinput.value = "";
 }
 
 
-/*при фокусе на строке поиска список становится видимым*/
+/*РїСЂРё С„РѕРєСѓСЃРµ РЅР° СЃС‚СЂРѕРєРµ РїРѕРёСЃРєР° СЃРїРёСЃРѕРє СЃС‚Р°РЅРѕРІРёС‚СЃСЏ РІРёРґРёРјС‹Рј*/
 function visibleList()
 {
 	var list = document.getElementById('searchlist');
@@ -19,7 +19,7 @@ function visibleList()
 }
 
 
-/*при отсутствии фокуса на строке поиска список исчезает*/
+/*РїСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё С„РѕРєСѓСЃР° РЅР° СЃС‚СЂРѕРєРµ РїРѕРёСЃРєР° СЃРїРёСЃРѕРє РёСЃС‡РµР·Р°РµС‚*/
 function deleteList()
 {
 	var list = document.getElementById('searchlist');
@@ -31,7 +31,7 @@ function deleteList()
 }
 
 
-/*при нажатии на элемент списка он появляется в строке поиска*/
+/*РїСЂРё РЅР°Р¶Р°С‚РёРё РЅР° СЌР»РµРјРµРЅС‚ СЃРїРёСЃРєР° РѕРЅ РїРѕСЏРІР»СЏРµС‚СЃСЏ РІ СЃС‚СЂРѕРєРµ РїРѕРёСЃРєР°*/
 function chooseEl()
 {	
 	var list = document.getElementById('searchlist');
@@ -51,146 +51,146 @@ function chooseEl()
 }
 
 
-/*переход на другую страницу в зависимости от выбора*/
+/*РїРµСЂРµС…РѕРґ РЅР° РґСЂСѓРіСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ РІС‹Р±РѕСЂР°*/
 function findindex()
 {	
 	var val = window.searchform.searchinput.value.toLowerCase();		
 	
-	if (val == "тарк") {document.location.href = "subpage/tark.html"; flag = 1;}
-	if (val == "бидли") {document.location.href = "subpage/bidley.html"; flag = 1;}
-	if (val == "коркес") {document.location.href = "subpage/korkes.html"; flag = 1;}
-	if (val == "джереми") {document.location.href = "subpage/jeremy.html"; flag = 1;}
-	if (val == "иллор") {document.location.href = "subpage/illor.html"; flag = 1;}
-	if (val == "дерек") {document.location.href = "subpage/derek.html"; flag = 1;}
-	if (val == "элмор") {document.location.href = "subpage/elmore.html"; flag = 1;}
-	if (val == "лина") {document.location.href = "subpage/lina.html"; flag = 1;}
-	if (val == "анабель") {document.location.href = "subpage/anabel.html"; flag = 1;}
-	if (val == "кассиопея") {document.location.href = "subpage/cassiopeia.html"; flag = 1;}
-	if (val == "мириам") {document.location.href = "subpage/miriam.html"; flag = 1;}
-	if (val == "касметра") {document.location.href = "subpage/casmetra.html"; flag = 1;}
-	if (val == "эоваций") {document.location.href = "subpage/eovacius.html"; flag = 1;}
-	if (val == "спинт") {document.location.href = "subpage/spint.html"; flag = 1;}
-	if (val == "андал") {document.location.href = "subpage/andal.html"; flag = 1;}
-	if (val == "манфред") {document.location.href = "subpage/manfred.html"; flag = 1;}
-	if (val == "зилар") {document.location.href = "subpage/zylar.html"; flag = 1;}
-	if (val == "астра") {document.location.href = "subpage/astra.html"; flag = 1;}
-	if (val == "даргем") {document.location.href = "subpage/dargem.html"; flag = 1;}
-	if (val == "беатрис") {document.location.href = "subpage/beatrix.html"; flag = 1;}
-	if (val == "кинкерия") {document.location.href = "subpage/kinkery.html"; flag = 1;}
-	if (val == "ранлу") {document.location.href = "subpage/ranlu.html"; flag = 1;}
-	if (val == "капитан") {document.location.href = "subpage/captain.html"; flag = 1;}
-	if (val == "навигатор") {document.location.href = "subpage/navigator.html"; flag = 1;}
-	if (val == "герои кампании") {document.location.href = "heroesH3hota.html#campaignheroes"; flag = 1;}
-	if (val == "герои (причал)") {document.location.href = "heroesH3hota.html#coveheroes"; flag = 1;}
-	if (val == "герои (прочие)") {document.location.href = "heroesH3hota.html#otherheroes"; flag = 1;}
+	if (val == "С‚Р°СЂРє") {document.location.href = "subpage/tark.html"; flag = 1;}
+	if (val == "Р±РёРґР»Рё") {document.location.href = "subpage/bidley.html"; flag = 1;}
+	if (val == "РєРѕСЂРєРµСЃ") {document.location.href = "subpage/korkes.html"; flag = 1;}
+	if (val == "РґР¶РµСЂРµРјРё") {document.location.href = "subpage/jeremy.html"; flag = 1;}
+	if (val == "РёР»Р»РѕСЂ") {document.location.href = "subpage/illor.html"; flag = 1;}
+	if (val == "РґРµСЂРµРє") {document.location.href = "subpage/derek.html"; flag = 1;}
+	if (val == "СЌР»РјРѕСЂ") {document.location.href = "subpage/elmore.html"; flag = 1;}
+	if (val == "Р»РёРЅР°") {document.location.href = "subpage/lina.html"; flag = 1;}
+	if (val == "Р°РЅР°Р±РµР»СЊ") {document.location.href = "subpage/anabel.html"; flag = 1;}
+	if (val == "РєР°СЃСЃРёРѕРїРµСЏ") {document.location.href = "subpage/cassiopeia.html"; flag = 1;}
+	if (val == "РјРёСЂРёР°Рј") {document.location.href = "subpage/miriam.html"; flag = 1;}
+	if (val == "РєР°СЃРјРµС‚СЂР°") {document.location.href = "subpage/casmetra.html"; flag = 1;}
+	if (val == "СЌРѕРІР°С†РёР№") {document.location.href = "subpage/eovacius.html"; flag = 1;}
+	if (val == "СЃРїРёРЅС‚") {document.location.href = "subpage/spint.html"; flag = 1;}
+	if (val == "Р°РЅРґР°Р»") {document.location.href = "subpage/andal.html"; flag = 1;}
+	if (val == "РјР°РЅС„СЂРµРґ") {document.location.href = "subpage/manfred.html"; flag = 1;}
+	if (val == "Р·РёР»Р°СЂ") {document.location.href = "subpage/zylar.html"; flag = 1;}
+	if (val == "Р°СЃС‚СЂР°") {document.location.href = "subpage/astra.html"; flag = 1;}
+	if (val == "РґР°СЂРіРµРј") {document.location.href = "subpage/dargem.html"; flag = 1;}
+	if (val == "Р±РµР°С‚СЂРёСЃ") {document.location.href = "subpage/beatrix.html"; flag = 1;}
+	if (val == "РєРёРЅРєРµСЂРёСЏ") {document.location.href = "subpage/kinkery.html"; flag = 1;}
+	if (val == "СЂР°РЅР»Сѓ") {document.location.href = "subpage/ranlu.html"; flag = 1;}
+	if (val == "РєР°РїРёС‚Р°РЅ") {document.location.href = "subpage/captain.html"; flag = 1;}
+	if (val == "РЅР°РІРёРіР°С‚РѕСЂ") {document.location.href = "subpage/navigator.html"; flag = 1;}
+	if (val == "РіРµСЂРѕРё РєР°РјРїР°РЅРёРё") {document.location.href = "heroesH3hota.html#campaignheroes"; flag = 1;}
+	if (val == "РіРµСЂРѕРё (РїСЂРёС‡Р°Р»)") {document.location.href = "heroesH3hota.html#coveheroes"; flag = 1;}
+	if (val == "РіРµСЂРѕРё (РїСЂРѕС‡РёРµ)") {document.location.href = "heroesH3hota.html#otherheroes"; flag = 1;}
 	
-	if (val == "нимфа") {document.location.href = "creaturesH3hota.html#c11"; flag = 1;}
-	if (val == "океанида") {document.location.href = "creaturesH3hota.html#c12"; flag = 1;}
-	if (val == "матрос") {document.location.href = "creaturesH3hota.html#c21"; flag = 1;}
-	if (val == "головорез") {document.location.href = "creaturesH3hota.html#c22"; flag = 1;}
-	if (val == "пират") {document.location.href = "creaturesH3hota.html#c31"; flag = 1;}
-	if (val == "корсар") {document.location.href = "creaturesH3hota.html#c32"; flag = 1;}
-	if (val == "морской волк") {document.location.href = "creaturesH3hota.html#c33"; flag = 1;}
-	if (val == "дух океана") {document.location.href = "creaturesH3hota.html#c41"; flag = 1;}
-	if (val == "ассида") {document.location.href = "creaturesH3hota.html#c42"; flag = 1;}
-	if (val == "жрица моря") {document.location.href = "creaturesH3hota.html#c51"; flag = 1;}
-	if (val == "заклинательница") {document.location.href = "creaturesH3hota.html#c52"; flag = 1;}
-	if (val == "никс") {document.location.href = "creaturesH3hota.html#c61"; flag = 1;}
-	if (val == "никс-воин") {document.location.href = "creaturesH3hota.html#c62"; flag = 1;}
-	if (val == "морской змей") {document.location.href = "creaturesH3hota.html#c71"; flag = 1;}
-	if (val == "аспид") {document.location.href = "creaturesH3hota.html#c72"; flag = 1;}
-	if (val == "пушка") {document.location.href = "creaturesH3hota.html#cannon"; flag = 1;}
-	if (val == "сатир") {document.location.href = "creaturesH3hota.html#nc_satyr"; flag = 1;}
-	if (val == "фангарм") {document.location.href = "creaturesH3hota.html#nc_fang"; flag = 1;}
-	if (val == "нейтральные существа") {document.location.href = "creaturesH3hota.html#neutralcreatures"; flag = 1;}
-	if (val == "существа причала") {document.location.href = "creaturesH3hota.html#covecreatures"; flag = 1;}
+	if (val == "РЅРёРјС„Р°") {document.location.href = "creaturesH3hota.html#c11"; flag = 1;}
+	if (val == "РѕРєРµР°РЅРёРґР°") {document.location.href = "creaturesH3hota.html#c12"; flag = 1;}
+	if (val == "РјР°С‚СЂРѕСЃ") {document.location.href = "creaturesH3hota.html#c21"; flag = 1;}
+	if (val == "РіРѕР»РѕРІРѕСЂРµР·") {document.location.href = "creaturesH3hota.html#c22"; flag = 1;}
+	if (val == "РїРёСЂР°С‚") {document.location.href = "creaturesH3hota.html#c31"; flag = 1;}
+	if (val == "РєРѕСЂСЃР°СЂ") {document.location.href = "creaturesH3hota.html#c32"; flag = 1;}
+	if (val == "РјРѕСЂСЃРєРѕР№ РІРѕР»Рє") {document.location.href = "creaturesH3hota.html#c33"; flag = 1;}
+	if (val == "РґСѓС… РѕРєРµР°РЅР°") {document.location.href = "creaturesH3hota.html#c41"; flag = 1;}
+	if (val == "Р°СЃСЃРёРґР°") {document.location.href = "creaturesH3hota.html#c42"; flag = 1;}
+	if (val == "Р¶СЂРёС†Р° РјРѕСЂСЏ") {document.location.href = "creaturesH3hota.html#c51"; flag = 1;}
+	if (val == "Р·Р°РєР»РёРЅР°С‚РµР»СЊРЅРёС†Р°") {document.location.href = "creaturesH3hota.html#c52"; flag = 1;}
+	if (val == "РЅРёРєСЃ") {document.location.href = "creaturesH3hota.html#c61"; flag = 1;}
+	if (val == "РЅРёРєСЃ-РІРѕРёРЅ") {document.location.href = "creaturesH3hota.html#c62"; flag = 1;}
+	if (val == "РјРѕСЂСЃРєРѕР№ Р·РјРµР№") {document.location.href = "creaturesH3hota.html#c71"; flag = 1;}
+	if (val == "Р°СЃРїРёРґ") {document.location.href = "creaturesH3hota.html#c72"; flag = 1;}
+	if (val == "РїСѓС€РєР°") {document.location.href = "creaturesH3hota.html#cannon"; flag = 1;}
+	if (val == "СЃР°С‚РёСЂ") {document.location.href = "creaturesH3hota.html#nc_satyr"; flag = 1;}
+	if (val == "С„Р°РЅРіР°СЂРј") {document.location.href = "creaturesH3hota.html#nc_fang"; flag = 1;}
+	if (val == "РЅРµР№С‚СЂР°Р»СЊРЅС‹Рµ СЃСѓС‰РµСЃС‚РІР°") {document.location.href = "creaturesH3hota.html#neutralcreatures"; flag = 1;}
+	if (val == "СЃСѓС‰РµСЃС‚РІР° РїСЂРёС‡Р°Р»Р°") {document.location.href = "creaturesH3hota.html#covecreatures"; flag = 1;}
 	
-	if (val == "склады") {document.location.href = "objectsH3hota.html#wrhouse"; flag = 1;}
-	if (val == "обучающие объекты") {document.location.href = "objectsH3hota.html#learningobjects"; flag = 1;}
-	if (val == "академия мореплавания") {document.location.href = "objectsH3hota.html#seaacad"; flag = 1;}
-	if (val == "колизей магов") {document.location.href = "objectsH3hota.html#magecolo"; flag = 1;}
-	if (val == "банки") {document.location.href = "objectsH3hota.html#banks"; flag = 1;}
-	if (val == "консерватории") {document.location.href = "objectsH3hota.html#cons"; flag = 1;}
-	if (val == "погост") {document.location.href = "objectsH3hota.html#banks1"; flag = 1;}
-	if (val == "особняк") {document.location.href = "objectsH3hota.html#banks2"; flag = 1;}
-	if (val == "черная башня") {document.location.href = "objectsH3hota.html#banks3"; flag = 1;}
-	if (val == "вертеп") {document.location.href = "objectsH3hota.html#banks4"; flag = 1;}
-	if (val == "святилище бехолдеров") {document.location.href = "objectsH3hota.html#banks5"; flag = 1;}
-	if (val == "храм моря") {document.location.href = "objectsH3hota.html#banks6"; flag = 1;}
-	if (val == "застава налетчиков") {document.location.href = "objectsH3hota.html#cons1"; flag = 1;}
-	if (val == "башня из слоновой кости") {document.location.href = "objectsH3hota.html#cons2"; flag = 1;}
-	if (val == "опытный цех") {document.location.href = "objectsH3hota.html#cons3"; flag = 1;}
-	if (val == "пиратская пещера") {document.location.href = "objectsH3hota.html#cons4"; flag = 1;}
-	if (val == "алая башня") {document.location.href = "objectsH3hota.html#cons5"; flag = 1;}
-	if (val == "объекты (прочие)") {document.location.href = "objectsH3hota.html#otherobjects"; flag = 1;}
-	if (val == "форт на холме (новый)") {document.location.href = "objectsH3hota.html#hillfort"; flag = 1;}
-	if (val == "пушечный двор") {document.location.href = "objectsH3hota.html#cannonyard"; flag = 1;}
-	if (val == "фабрика военной техники") {document.location.href = "objectsH3hota.html#militaryfabric"; flag = 1;}
-	if (val == "винодельня") {document.location.href = "objectsH3hota.html#winery"; flag = 1;}
-	if (val == "зиккурат") {document.location.href = "objectsH3hota.html#ziggurat"; flag = 1;}
-	if (val == "храм лояльности") {document.location.href = "objectsH3hota.html#loyaltytemple"; flag = 1;}
-	if (val == "городские врата") {document.location.href = "objectsH3hota.html#townportal"; flag = 1;}
-	if (val == "преобразователь скелетов") {document.location.href = "objectsH3hota.html#skelTransformer"; flag = 1;}
-	if (val == "водопой") {document.location.href = "objectsH3hota.html#waterplace"; flag = 1;}
-	if (val == "древняя лампа") {document.location.href = "objectsH3hota.html#lamp"; flag = 1;}
-	if (val == "алтарь маны") {document.location.href = "objectsH3hota.html#manaaltar"; flag = 1;}
-	if (val == "фонтан молодости") {document.location.href = "objectsH3hota.html#youthf"; flag = 1;}
-	if (val == "обсерватория") {document.location.href = "objectsH3hota.html#observer"; flag = 1;}
+	if (val == "СЃРєР»Р°РґС‹") {document.location.href = "objectsH3hota.html#wrhouse"; flag = 1;}
+	if (val == "РѕР±СѓС‡Р°СЋС‰РёРµ РѕР±СЉРµРєС‚С‹") {document.location.href = "objectsH3hota.html#learningobjects"; flag = 1;}
+	if (val == "Р°РєР°РґРµРјРёСЏ РјРѕСЂРµРїР»Р°РІР°РЅРёСЏ") {document.location.href = "objectsH3hota.html#seaacad"; flag = 1;}
+	if (val == "РєРѕР»РёР·РµР№ РјР°РіРѕРІ") {document.location.href = "objectsH3hota.html#magecolo"; flag = 1;}
+	if (val == "Р±Р°РЅРєРё") {document.location.href = "objectsH3hota.html#banks"; flag = 1;}
+	if (val == "РєРѕРЅСЃРµСЂРІР°С‚РѕСЂРёРё") {document.location.href = "objectsH3hota.html#cons"; flag = 1;}
+	if (val == "РїРѕРіРѕСЃС‚") {document.location.href = "objectsH3hota.html#banks1"; flag = 1;}
+	if (val == "РѕСЃРѕР±РЅСЏРє") {document.location.href = "objectsH3hota.html#banks2"; flag = 1;}
+	if (val == "С‡РµСЂРЅР°СЏ Р±Р°С€РЅСЏ") {document.location.href = "objectsH3hota.html#banks3"; flag = 1;}
+	if (val == "РІРµСЂС‚РµРї") {document.location.href = "objectsH3hota.html#banks4"; flag = 1;}
+	if (val == "СЃРІСЏС‚РёР»РёС‰Рµ Р±РµС…РѕР»РґРµСЂРѕРІ") {document.location.href = "objectsH3hota.html#banks5"; flag = 1;}
+	if (val == "С…СЂР°Рј РјРѕСЂСЏ") {document.location.href = "objectsH3hota.html#banks6"; flag = 1;}
+	if (val == "Р·Р°СЃС‚Р°РІР° РЅР°Р»РµС‚С‡РёРєРѕРІ") {document.location.href = "objectsH3hota.html#cons1"; flag = 1;}
+	if (val == "Р±Р°С€РЅСЏ РёР· СЃР»РѕРЅРѕРІРѕР№ РєРѕСЃС‚Рё") {document.location.href = "objectsH3hota.html#cons2"; flag = 1;}
+	if (val == "РѕРїС‹С‚РЅС‹Р№ С†РµС…") {document.location.href = "objectsH3hota.html#cons3"; flag = 1;}
+	if (val == "РїРёСЂР°С‚СЃРєР°СЏ РїРµС‰РµСЂР°") {document.location.href = "objectsH3hota.html#cons4"; flag = 1;}
+	if (val == "Р°Р»Р°СЏ Р±Р°С€РЅСЏ") {document.location.href = "objectsH3hota.html#cons5"; flag = 1;}
+	if (val == "РѕР±СЉРµРєС‚С‹ (РїСЂРѕС‡РёРµ)") {document.location.href = "objectsH3hota.html#otherobjects"; flag = 1;}
+	if (val == "С„РѕСЂС‚ РЅР° С…РѕР»РјРµ (РЅРѕРІС‹Р№)") {document.location.href = "objectsH3hota.html#hillfort"; flag = 1;}
+	if (val == "РїСѓС€РµС‡РЅС‹Р№ РґРІРѕСЂ") {document.location.href = "objectsH3hota.html#cannonyard"; flag = 1;}
+	if (val == "С„Р°Р±СЂРёРєР° РІРѕРµРЅРЅРѕР№ С‚РµС…РЅРёРєРё") {document.location.href = "objectsH3hota.html#militaryfabric"; flag = 1;}
+	if (val == "РІРёРЅРѕРґРµР»СЊРЅСЏ") {document.location.href = "objectsH3hota.html#winery"; flag = 1;}
+	if (val == "Р·РёРєРєСѓСЂР°С‚") {document.location.href = "objectsH3hota.html#ziggurat"; flag = 1;}
+	if (val == "С…СЂР°Рј Р»РѕСЏР»СЊРЅРѕСЃС‚Рё") {document.location.href = "objectsH3hota.html#loyaltytemple"; flag = 1;}
+	if (val == "РіРѕСЂРѕРґСЃРєРёРµ РІСЂР°С‚Р°") {document.location.href = "objectsH3hota.html#townportal"; flag = 1;}
+	if (val == "РїСЂРµРѕР±СЂР°Р·РѕРІР°С‚РµР»СЊ СЃРєРµР»РµС‚РѕРІ") {document.location.href = "objectsH3hota.html#skelTransformer"; flag = 1;}
+	if (val == "РІРѕРґРѕРїРѕР№") {document.location.href = "objectsH3hota.html#waterplace"; flag = 1;}
+	if (val == "РґСЂРµРІРЅСЏСЏ Р»Р°РјРїР°") {document.location.href = "objectsH3hota.html#lamp"; flag = 1;}
+	if (val == "Р°Р»С‚Р°СЂСЊ РјР°РЅС‹") {document.location.href = "objectsH3hota.html#manaaltar"; flag = 1;}
+	if (val == "С„РѕРЅС‚Р°РЅ РјРѕР»РѕРґРѕСЃС‚Рё") {document.location.href = "objectsH3hota.html#youthf"; flag = 1;}
+	if (val == "РѕР±СЃРµСЂРІР°С‚РѕСЂРёСЏ") {document.location.href = "objectsH3hota.html#observer"; flag = 1;}
 	
-	if (val == "малые артефакты") {document.location.href = "artefactsH3hota.html#art1"; flag = 1;}
-	if (val == "устрашающая маска") {document.location.href = "artefactsH3hota.html#art11"; flag = 1;}
-	if (val == "артефакты-сокровища") {document.location.href = "artefactsH3hota.html#art2"; flag = 1;}
-	if (val == "кукла шамана") {document.location.href = "artefactsH3hota.html#art21"; flag = 1;}
-	if (val == "руны неизбежности") {document.location.href = "artefactsH3hota.html#art22"; flag = 1;}
-	if (val == "кольцо подавления") {document.location.href = "artefactsH3hota.html#art23"; flag = 1;}
-	if (val == "подкова демона") {document.location.href = "artefactsH3hota.html#art24"; flag = 1;}
-	if (val == "великие артефакты") {document.location.href = "artefactsH3hota.html#art3"; flag = 1;}
-	if (val == "трезубец могущества") {document.location.href = "artefactsH3hota.html#art31"; flag = 1;}
-	if (val == "королевские доспехи никсов") {document.location.href = "artefactsH3hota.html#art32"; flag = 1;}
-	if (val == "щит морской славы") {document.location.href = "artefactsH3hota.html#art33"; flag = 1;}
-	if (val == "корона пяти морей") {document.location.href = "artefactsH3hota.html#art34"; flag = 1;}
-	if (val == "накидка молчания") {document.location.href = "artefactsH3hota.html#art35"; flag = 1;}
-	if (val == "кольцо забвения") {document.location.href = "artefactsH3hota.html#art36"; flag = 1;}
-	if (val == "кулон разорения") {document.location.href = "artefactsH3hota.html#art37"; flag = 1;}
-	if (val == "сапоги странника") {document.location.href = "artefactsH3hota.html#art38"; flag = 1;}
-	if (val == "артефакты-реликты") {document.location.href = "artefactsH3hota.html#art4"; flag = 1;}
-	if (val == "рог бездны") {document.location.href = "artefactsH3hota.html#art41"; flag = 1;}
-	if (val == "золотой гусь") {document.location.href = "artefactsH3hota.html#art42"; flag = 1;}
-	if (val == "мантия дипломата") {document.location.href = "artefactsH3hota.html#art43"; flag = 1;}
-	if (val == "кулон отражения") {document.location.href = "artefactsH3hota.html#art44"; flag = 1;}
-	if (val == "железный кулак огра") {document.location.href = "artefactsH3hota.html#art45"; flag = 1;}
+	if (val == "РјР°Р»С‹Рµ Р°СЂС‚РµС„Р°РєС‚С‹") {document.location.href = "artefactsH3hota.html#art1"; flag = 1;}
+	if (val == "СѓСЃС‚СЂР°С€Р°СЋС‰Р°СЏ РјР°СЃРєР°") {document.location.href = "artefactsH3hota.html#art11"; flag = 1;}
+	if (val == "Р°СЂС‚РµС„Р°РєС‚С‹-СЃРѕРєСЂРѕРІРёС‰Р°") {document.location.href = "artefactsH3hota.html#art2"; flag = 1;}
+	if (val == "РєСѓРєР»Р° С€Р°РјР°РЅР°") {document.location.href = "artefactsH3hota.html#art21"; flag = 1;}
+	if (val == "СЂСѓРЅС‹ РЅРµРёР·Р±РµР¶РЅРѕСЃС‚Рё") {document.location.href = "artefactsH3hota.html#art22"; flag = 1;}
+	if (val == "РєРѕР»СЊС†Рѕ РїРѕРґР°РІР»РµРЅРёСЏ") {document.location.href = "artefactsH3hota.html#art23"; flag = 1;}
+	if (val == "РїРѕРґРєРѕРІР° РґРµРјРѕРЅР°") {document.location.href = "artefactsH3hota.html#art24"; flag = 1;}
+	if (val == "РІРµР»РёРєРёРµ Р°СЂС‚РµС„Р°РєС‚С‹") {document.location.href = "artefactsH3hota.html#art3"; flag = 1;}
+	if (val == "С‚СЂРµР·СѓР±РµС† РјРѕРіСѓС‰РµСЃС‚РІР°") {document.location.href = "artefactsH3hota.html#art31"; flag = 1;}
+	if (val == "РєРѕСЂРѕР»РµРІСЃРєРёРµ РґРѕСЃРїРµС…Рё РЅРёРєСЃРѕРІ") {document.location.href = "artefactsH3hota.html#art32"; flag = 1;}
+	if (val == "С‰РёС‚ РјРѕСЂСЃРєРѕР№ СЃР»Р°РІС‹") {document.location.href = "artefactsH3hota.html#art33"; flag = 1;}
+	if (val == "РєРѕСЂРѕРЅР° РїСЏС‚Рё РјРѕСЂРµР№") {document.location.href = "artefactsH3hota.html#art34"; flag = 1;}
+	if (val == "РЅР°РєРёРґРєР° РјРѕР»С‡Р°РЅРёСЏ") {document.location.href = "artefactsH3hota.html#art35"; flag = 1;}
+	if (val == "РєРѕР»СЊС†Рѕ Р·Р°Р±РІРµРЅРёСЏ") {document.location.href = "artefactsH3hota.html#art36"; flag = 1;}
+	if (val == "РєСѓР»РѕРЅ СЂР°Р·РѕСЂРµРЅРёСЏ") {document.location.href = "artefactsH3hota.html#art37"; flag = 1;}
+	if (val == "СЃР°РїРѕРіРё СЃС‚СЂР°РЅРЅРёРєР°") {document.location.href = "artefactsH3hota.html#art38"; flag = 1;}
+	if (val == "Р°СЂС‚РµС„Р°РєС‚С‹-СЂРµР»РёРєС‚С‹") {document.location.href = "artefactsH3hota.html#art4"; flag = 1;}
+	if (val == "СЂРѕРі Р±РµР·РґРЅС‹") {document.location.href = "artefactsH3hota.html#art41"; flag = 1;}
+	if (val == "Р·РѕР»РѕС‚РѕР№ РіСѓСЃСЊ") {document.location.href = "artefactsH3hota.html#art42"; flag = 1;}
+	if (val == "РјР°РЅС‚РёСЏ РґРёРїР»РѕРјР°С‚Р°") {document.location.href = "artefactsH3hota.html#art43"; flag = 1;}
+	if (val == "РєСѓР»РѕРЅ РѕС‚СЂР°Р¶РµРЅРёСЏ") {document.location.href = "artefactsH3hota.html#art44"; flag = 1;}
+	if (val == "Р¶РµР»РµР·РЅС‹Р№ РєСѓР»Р°Рє РѕРіСЂР°") {document.location.href = "artefactsH3hota.html#art45"; flag = 1;}
 	
-	if (val == "причал (строения)") {document.location.href = "covebuildingsH3hota.html"; flag = 1;}
-	if (val == "причал (гильдия магов)") {document.location.href = "covemageguild.html"; flag = 1;}
-	if (val == "причал (грааль)") {document.location.href = "covebuildingsH3hota.html#grail"; flag = 1;}
-	if (val == "причал (особые строения)") {document.location.href = "covebuildingsH3hota.html#special"; flag = 1;}
-	if (val == "путеводная звезда") {document.location.href = "covebuildingsH3hota.html#grail"; flag = 1;}
-	if (val == "направленный выстрел (личи)") {document.location.href = "subpage/special/lichsability.html"; flag = 1;}
-	if (val == "направленный выстрел (магоги)") {document.location.href = "subpage/special/magogsability.html"; flag = 1;}
+	if (val == "РїСЂРёС‡Р°Р» (СЃС‚СЂРѕРµРЅРёСЏ)") {document.location.href = "covebuildingsH3hota.html"; flag = 1;}
+	if (val == "РїСЂРёС‡Р°Р» (РіРёР»СЊРґРёСЏ РјР°РіРѕРІ)") {document.location.href = "covemageguild.html"; flag = 1;}
+	if (val == "РїСЂРёС‡Р°Р» (РіСЂР°Р°Р»СЊ)") {document.location.href = "covebuildingsH3hota.html#grail"; flag = 1;}
+	if (val == "РїСЂРёС‡Р°Р» (РѕСЃРѕР±С‹Рµ СЃС‚СЂРѕРµРЅРёСЏ)") {document.location.href = "covebuildingsH3hota.html#special"; flag = 1;}
+	if (val == "РїСѓС‚РµРІРѕРґРЅР°СЏ Р·РІРµР·РґР°") {document.location.href = "covebuildingsH3hota.html#grail"; flag = 1;}
+	if (val == "РЅР°РїСЂР°РІР»РµРЅРЅС‹Р№ РІС‹СЃС‚СЂРµР» (Р»РёС‡Рё)") {document.location.href = "subpage/special/lichsability.html"; flag = 1;}
+	if (val == "РЅР°РїСЂР°РІР»РµРЅРЅС‹Р№ РІС‹СЃС‚СЂРµР» (РјР°РіРѕРіРё)") {document.location.href = "subpage/special/magogsability.html"; flag = 1;}
 	
 	if (flag == 1) searchform.searchinput.value = "";	
-	if (flag == 0) {searchform.searchinput.value = "Некорректный ввод"; searchform.searchinput.style.color = "rgba(255, 0, 0, 0.6)";};
+	if (flag == 0) {searchform.searchinput.value = "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ"; searchform.searchinput.style.color = "rgba(255, 0, 0, 0.6)";};
 }
 
 
-/*при некорректном вводе*/
+/*РїСЂРё РЅРµРєРѕСЂСЂРµРєС‚РЅРѕРј РІРІРѕРґРµ*/
 function incorrectinput()
 {
 	searchform.searchinput.style.color = "black";
-	if ((flag == 0) && (searchform.searchinput.value == "Некорректный ввод")) searchform.searchinput.value = "";
+	if ((flag == 0) && (searchform.searchinput.value == "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ")) searchform.searchinput.value = "";
 }
 
 
-/*сравнение введенной строки с массивом предметных указателей*/
+/*СЃСЂР°РІРЅРµРЅРёРµ РІРІРµРґРµРЅРЅРѕР№ СЃС‚СЂРѕРєРё СЃ РјР°СЃСЃРёРІРѕРј РїСЂРµРґРјРµС‚РЅС‹С… СѓРєР°Р·Р°С‚РµР»РµР№*/
 function strcmp()
 {	
 	var list = document.getElementById('searchlist');
 	list.style.visibility  = 'visible';
-	var str = searchform.searchinput.value.toLowerCase(); //строка из поля ввода	
-	var index = ""; //строка из массива названий
-	var isequal = 0; //совпадает или не совпадает начало строки из поля ввода с началом строки из массива названий
+	var str = searchform.searchinput.value.toLowerCase(); //СЃС‚СЂРѕРєР° РёР· РїРѕР»СЏ РІРІРѕРґР°	
+	var index = ""; //СЃС‚СЂРѕРєР° РёР· РјР°СЃСЃРёРІР° РЅР°Р·РІР°РЅРёР№
+	var isequal = 0; //СЃРѕРІРїР°РґР°РµС‚ РёР»Рё РЅРµ СЃРѕРІРїР°РґР°РµС‚ РЅР°С‡Р°Р»Рѕ СЃС‚СЂРѕРєРё РёР· РїРѕР»СЏ РІРІРѕРґР° СЃ РЅР°С‡Р°Р»РѕРј СЃС‚СЂРѕРєРё РёР· РјР°СЃСЃРёРІР° РЅР°Р·РІР°РЅРёР№
 	var arr = new Array();
-	var count = 0; //кол-во элементов в списке
+	var count = 0; //РєРѕР»-РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ СЃРїРёСЃРєРµ
 	for (var i = 0; i < indexarr.length-1; i++)
 	{
 		isequal = 0;
