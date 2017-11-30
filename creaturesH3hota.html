@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Существа - Heroes 3 HotA </title>
+	<meta http-equiv="Content Type" content="text/html" charset="UTF-8" />
+	<meta name="description" content="Heroes 3 HotA. Описание новых существ, их характеристик и способностей." />
+	<meta name="keywords" content="Heroes, III, Horn, of, the, Abyss, HotA, Cove, герои, 3, Рог, Бездны, Причал" />
+	<link rel="icon" href="image\monolit.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="image\monolit.ico" type="image/x-icon" />
+	
+	<link rel="stylesheet" type="text/css" href="h3style.css"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="h3style1600.css"/>
+	<script type="text/javascript" src="h3search.js" charset="utf-8"></script>
+</head>
+
+
+<body>
+<img src="image/hotabg.png" id="backgroung"></img> <a name="top"></a>
+
+
+	<div class="topdiv"><img src="gif/header_gif2.gif" id="header_gif"></img></div>
+	
+	<div class="headerdiv">
+	<h1>HEROES 3: Horn of the Abyss</h1> 
+	</div>
+	 
+	<div class="bigsearchdiv">
+	<div class="searchdiv">		
+		<form name="searchform" onsubmit="return false;"> 		
+		<input type="text" name="searchinput" class="searchinput" value="" placeholder="найти.." size="30" maxlength="30" autocomplete="off"
+		onfocus="this.placeholder=''; incorrectinput(); strcmp();"  onblur="deleteList();" oninput="strcmp();" onkeydown="inputevent(event);">
+		<a class="clearbutton" onclick="clearinput();"></a>
+		</form>
+		<button class="searchbutton" onclick="findindex();"><span>поиск</span></button> 	
+
+		<ul id="searchlist" onmouseover="onmouseoverfunc(event);"></ul>		
+	</div></div>
+	 
+	<div class="maindiv">
+	<div  class="menu">
+	<ul  class="menulist">
+	<li class="menuelement" style="margin-top:-65px;"><a href="index.html">Главная страница</a></li>
+	<li class="menuelement"><a href="changelogsH3hota.html">Изменения</a></li>
+	<li class="menuelement"><a href="coveH3hota.html">Причал</a>
+		<ul>
+		<li style="margin-top:-25px;"><a href="covebuildingsH3hota.html">Строения</a></li>
+		<li><a href="creaturesH3hota.html#covecreatures">Существа Причала</a></li>
+		<li><a href="heroesH3hota.html#coveheroes">Герои Причала</a></li>
+		<li><a href="covemageguild.html">Гильдия магов</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="creaturesH3hota.html">Существа</a></li>
+	<li class="menuelement"><a href="heroesH3hota.html">Герои</a></li>
+	<li class="menuelement"><a href="objectsH3hota.html">Объекты</a></li>
+	<li class="menuelement"><a href="artefactsH3hota.html">Артефакты</a></li>
+	</ul>
+	</div>
+	
+	
+	<div id="filler">	
+
+		<div class="creatures">
+		<h2 style="margin-top:5px;">Существа</h2>
+		
+		<a name="covecreatures"></a>
+		<div class="boxtag">
+		<h3>Существа Причала</h3>		
+		
+		<div class="crdiv">
+		<table class="creatureTable" style="clear: left; float: left; margin: 0 15px 0 0;"> <a name="c11"></a><a name="c12"></a>
+		<tr><th colspan="3" align="center">Нимфа (1 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/1_1.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>5</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>2</td></tr>
+		<tr><td class="crinfo">Урон</td><td>1-2</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>4</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>6</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">35 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>16</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Телепорт. Иммунитет к магии холода.</span></span></span>
+		</td></tr>
+		</table>
+		
+		<table class="creatureTable" style="float: right; margin: 0 0 0 0;">
+		<tr><th colspan="3" align="center">Океанида (1 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/1_2.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>6</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>2</td></tr>
+		<tr><td class="crinfo">Урон</td><td>1-3</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>4</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>8</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">45 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>16</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Телепорт. Иммунитет к магии холода.</span></span></span>
+		</td></tr>	
+		</table></div>
+
+		<div class="crdiv">
+		<table class="creatureTable" style="clear: left; float: left; margin: 0 15px 0 0;"> <a name="c21"></a><a name="c22"></a>
+		<tr><th colspan="3" align="center">Матрос (2 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/2_1.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>7</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>4</td></tr>
+		<tr><td class="crinfo">Урон</td><td>2-4</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>15</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>5</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">110 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>9</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext" style="min-width:30px; left: 35px;">Нет.</span></span>
+		</td></tr>	
+		</table>
+		
+		<table class="creatureTable" style="float: right; margin: 0 0 0 0;">
+		<tr><th colspan="3" align="center">Головорез (2 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/2_2.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>8</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>6</td></tr>
+		<tr><td class="crinfo">Урон</td><td>3-4</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>15</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>6</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">140 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>9</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext" style="min-width:30px; left: 35px;">Нет.</span></span>
+		</td></tr>	
+		</table></div>
+		
+		<div class="crdiv">
+		<table class="creatureTable" style="clear: left; float: left; margin: 0 15px 0 0;"> <a name="c31"></a><a name="c32"></a>
+		<tr><th colspan="3" align="center">Пират (3 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/3_1.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>8</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>6</td></tr>
+		<tr><td class="crinfo">Урон</td><td>3-7</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>4</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>15</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>7</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">225 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>7</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Нет штрафа в ближнем бою.</span></span></span>
+		</td></tr>	
+		</table>
+		
+		<table class="creatureTable" style="float: right; margin: 0 0 0 0;">
+		<tr><th colspan="3" align="center">Корсар (3 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/3_2.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>10</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>8</td></tr>
+		<tr><td class="crinfo">Урон</td><td>3-7</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>4</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>15</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>7</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">250 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>7</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Нет штрафа в ближнем бою.</span><br><span class="nowrap">Безответный удар.</span></span></span>
+		</td></tr>	
+		</table></div>
+		
+		<div class="crdiv">
+		<table class="creatureTable" style="margin: 0 auto 0 auto;"> <a name="c33"></a>
+		<tr><th colspan="3" align="center">Морской волк (3 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/3_3.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>12</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>11</td></tr>
+		<tr><td class="crinfo">Урон</td><td>3-7</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>10</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>16</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>7</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">300 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>7</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Нет штрафа в ближнем бою.</span><br><span class="nowrap">Безответный удар. Меткий выстрел.</span><br><hr>
+		Меткий выстрел - при выстреле, каждый из стреляющих Морских волков дополнительно к прямому урону 
+		имеет 3% шанс мгновенно убить одно существо в целевом отряде.</span></span>
+		</td></tr>	
+		</table></div>
+		
+		<div class="crdiv">
+		<table class="creatureTable" style="clear: left; float: left; margin: 0 15px 0 0;"> <a name="c41"></a><a name="c42"></a>
+		<tr><th colspan="3" align="center">Дух океана (4 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/4_1.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>10</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>8</td></tr>
+		<tr><td class="crinfo">Урон</td><td>6-9</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>30</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>9</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">275 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>4</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext" style="min-width:50px; left: 25px;">Полет.</span></span>
+		</td></tr>
+		</table>
+		
+		<table class="creatureTable" style="float: right; margin: 0 0 0 0;">
+		<tr><th colspan="3" align="center">Ассида (4 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/4_2.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>11</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>8</td></tr>
+		<tr><td class="crinfo">Урон</td><td>6-10</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>30</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>11</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">325 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>4</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Полет. Кровожадность.</span><br><hr>
+		Кровожадность - при атаке, если погибает хотя бы одно вражеское существо, Ассиды атакуют второй раз.</span></span>
+		</td></tr>
+		</table></div>
+		
+		<div class="crdiv">
+		<table class="creatureTable" style="clear: left; float: left; margin: 0 15px 0 0;"> <a name="c51"></a><a name="c52"></a>
+		<tr><th colspan="3" align="center">Жрица моря (5 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/5_1.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>12</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>7</td></tr>
+		<tr><td class="crinfo">Урон</td><td>10-14</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>12</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>515</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>7</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">515 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>3</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">После выстрела колдует</span><br><span class="nowrap">Слабость или Разрушающий луч</span><br> 
+		(сначала колдуется Слабость, далее - Разрушающий луч, пока не спадет эффект Слабости).</span></span>
+		</td></tr>
+		</table>
+		
+		<table class="creatureTable" style="float: right; margin: 0 0 0 0;">
+		<tr><th colspan="3" align="center">Заклинательница (5 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/5_2.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>12</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>9</td></tr>
+		<tr><td class="crinfo">Урон</td><td>10-16</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>12</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>565</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>8</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">565 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>3</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">После выстрела колдует</span><br><span class="nowrap">Слабость или Разрушающий луч</span><br> 
+		(сначала колдуется Слабость, далее - Разрушающий луч, пока не спадет эффект Слабости).</span></span>
+		</td></tr>
+		</table></div>
+		
+		<div class="crdiv">
+		<table class="creatureTable" style="clear: left; float: left; margin: 0 15px 0 0;"> <a name="c61"></a><a name="c62"></a>
+		<tr><th colspan="3" align="center">Никс (6 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/6_1.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>13</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>16</td></tr>
+		<tr><td class="crinfo">Урон</td><td>18-22</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>90</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>6</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">1000 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>2</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Игнорирует 30% атаки</span><br><span class="nowrap">во время удара врага.</span></span></span>
+		</td></tr>
+		</table>
+		
+		<table class="creatureTable" style="float: right; margin: 0 0 0 0;">
+		<tr><th colspan="3" align="center">Никс-воин (6 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/6_2.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>15</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>20</td></tr>
+		<tr><td class="crinfo">Урон</td><td>18-22</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>100</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>7</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">1300 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>2</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Игнорирует 60% атаки</span><br><span class="nowrap">во время удара врага.</span></span></span>
+		</td></tr>
+		</table></div>
+		
+		<div class="crdiv">
+		<table class="creatureTable" style="clear: left; float: left; margin: 0 15px 0 0;"> <a name="c71"></a><a name="c72"></a>
+		<tr><th colspan="3" align="center">Морской змей (7 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/7_1.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>22</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>13</td></tr>
+		<tr><td class="crinfo">Урон</td><td>30-55</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>200</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>9</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">2300 <img src="image/res/gold.png" title="Золото"/> 1 <img src="image/res/sulfur.png" title="Сера"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>1</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext">Яд.<br><hr>
+		<span class="nowrap">Яд - снижает на 10% здоровье</span><br> цели от максимального запаса существа каждый раунд (включая момент атаки).
+		Максимальный уровень здоровья не может упасть ниже 50% от начального. Яд можо вылечить или снять, но если он уже подействовал,
+		максимальное здоровье останется уменьшенным до конца битвы.</span></span>
+		</td></tr>
+		</table>
+		
+		<table class="creatureTable" style="float: right; margin: 0 0 0 0;">
+		<tr><th colspan="3" align="center">Аспид (7 Ур.)</th></tr>
+		<tr><td rowspan="9" class="covecrgif"><img src="image/creatures/7_2.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>29</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>20</td></tr>
+		<tr><td class="crinfo">Урон</td><td>30-55</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>300</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>12</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">4000 <img src="image/res/gold.png" title="Золото"/> 2 <img src="image/res/sulfur.png" title="Сера"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>1</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Яд, месть.</span><br><hr>
+		<span class="nowrap">Яд - снижает на 10% здоровье</span><br> цели от максимального запаса существа каждый раунд (включая момент атаки).
+		Максимальный уровень здоровья не может упасть ниже 50% от начального. Яд можо вылечить или снять, но если он уже подействовал,
+		максимальное здоровье останется уменьшенным до конца битвы.<br><hr>
+		Месть - чем больше общих очков здоровья теряет отряд Аспидов, 
+		тем сильнее будет наносить урон этот отряд.</span></span>
+		</td></tr>
+		</table></div><br><br>
+		
+		 
+		<h4 style="margin-top:-20px;">Боевая машина</h4>		
+		<table class="creatureTable" style="margin: 0 auto 0 auto;"> <a name="cannon"></a>
+		<tr><th colspan="3" align="center">Пушка</th></tr>
+		<tr><td rowspan="8"  class="covecrgif"><img src="image/creatures/cannon.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>20</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>10</td></tr>
+		<tr><td class="crinfo">Урон*</td><td>5-8</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>8</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>250</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>0</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">5000 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext">Может стрелять по крепостным стенам.<br><hr><span class="nowrap">(*)Урон пушки рассчитывается</span><br><span class="nowrap">как (5-8)*(атака героя + 1)</span></span></span>
+		</td></tr>
+		</table><br>
+		
+		</div><br><br>
+		
+		
+		<a name="neutralcreatures"></a>		
+		<div class="boxtag">
+		<h3>Нейтральные существа</h3>
+		
+		<div class="crdiv neutrals">
+		<table class="creatureTable" style="float: left; margin: 0 15px 0 0;"> <a name="nc_satyr"></a><a name="nc_fang"></a>
+		<tr><th colspan="3" align="center">Сатир (4 Ур.)</th></tr>
+		<tr><td rowspan="9" class="neucrgif"><img src="image/creatures/satyr.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>10</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>11</td></tr>
+		<tr><td class="crinfo">Урон</td><td>6-10</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>35</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>7</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">300 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>4</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext" style="left: -10px;"><span class="nowrap">Колдует Радость.</span></span></span>
+		</td></tr>
+		</table>
+		
+		<table class="creatureTable" style="float: right; margin: 0 0 0 0;">
+		<tr><th colspan="3" align="center">Фангарм (5 Ур.)</th></tr>
+		<tr><td rowspan="9" class="neucrgif"><img src="image/creatures/fangarm.png" class="creature_img"></img></td><td class="crinfo">Атака</td><td>12</td></tr>
+		<tr><td class="crinfo">Защита</td><td width=45px>12</td></tr>
+		<tr><td class="crinfo">Урон</td><td>8-12</td></tr>
+		<tr><td class="crinfo">Выстрелы</td><td>Нет</td></tr>
+		<tr><td class="crinfo">Здоровье</td><td>50</td></tr>
+		<tr><td class="crinfo">Скорость</td><td>6</td></tr>
+		<tr><td class="crinfo">Стоимость</td><td class="pricetd">600 <img src="image/res/gold.png" title="Золото"/></td></tr>
+		<tr><td class="crinfo">Прирост</td><td>3</td></tr>
+		<tr><td colspan="2" align="center"><span class="hinttag" >Способности
+		<span class="hinttagtext"><span class="nowrap">Полет. Иммунитет к магии разума.</span><br><span class="nowrap">Отвечает на все атаки. Гипнотизирует.</span></span></span>
+		</td></tr>	
+		</table></div>
+		</div>
+		</div>
+		
+		<p style="text-align:center; clear:left;">Вернуться в начало <a href="#top"><img src="gif/monolit.gif" title="вернуться в начало страницы"></a></p>				
+	</div>
+	</div>
+
+
+	<div class="bottomdiv">
+	<div id="footer">
+		<span style="top:-8px;"><a href="https://vk.com/h3hota" target="_blank">Heroes 3 HotA Официальное сообщество</a></br>
+		<a href="http://forum.df2.ru/index.php?showforum=90" target="_blank">DF2 Официальный форум HotA</a></br></br>
+		Автор: aabb</br>
+		Моя почта: bukalin_ao@mail.ru</br>
+		</span>
+		<img src="gif/lamp.gif"></img>
+	</div>
+	</div>
+
+
+</body>
+</html>
