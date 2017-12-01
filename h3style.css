@@ -130,6 +130,10 @@ margin: 3px 10px 0px 0px;
 .searchinput {height: 16px;}
 }
 
+body:first-of-type .searchinput	 { 
+border-radius: 0;
+}
+
 .clearbutton {
 background: url("image/special/x1.png");
 background-size: 20px 18px;
@@ -376,6 +380,8 @@ padding:0;
 margin:0 auto;
 height:1px;
 }
+
+.isnotphonenumber {color: black;}
 
 /*MAIN PAGE*/
 
