@@ -1,1 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Объекты - Heroes 3 HotA </title>
+	<meta http-equiv="Content Type" content="text/html" charset="UTF-8" />
+	<meta name="description" content="Heroes 3 HotA. Описание новых объектов." />
+	<meta name="keywords" content="Heroes, III, Horn, of, the, Abyss, HotA, Cove, герои, 3, Рог, Бездны, Причал" />
+	<link rel="icon" href="image\monolit.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="image\monolit.ico" type="image/x-icon" />
+	
+	<link rel="stylesheet" type="text/css" href="h3style.css"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="h3style1600.css"/>
+	<script type="text/javascript" src="h3search.js" charset="utf-8"></script>
+</head>
 
+
+<body>
+<img src="image/hotabg.png" id="backgroung"></img> <a name="top"></a>
+
+
+	<div class="topdiv"><img src="gif/header_gif2.gif" id="header_gif"></img></div>
+	
+	<div class="headerdiv">
+	<h1>HEROES 3: Horn of the Abyss</h1> 
+	</div>
+	
+	<div class="bigsearchdiv">
+	<div class="searchdiv">		
+		<form name="searchform" onsubmit="return false;"> 		
+		<input type="text" name="searchinput" class="searchinput" value="" placeholder="найти.." size="30" maxlength="30" autocomplete="off"
+		onfocus="this.placeholder=''; incorrectinput(); strcmp();"  onblur="deleteList();" oninput="strcmp();" onkeydown="inputevent(event);">
+		<a class="clearbutton" onclick="clearinput();"></a>
+		</form>
+		<button class="searchbutton" onclick="findindex();"><span>поиск</span></button> 	
+
+		<ul id="searchlist" onmouseover="onmouseoverfunc(event);"></ul>		
+	</div></div>
+	 
+	<div class="maindiv">
+	<div  class="menu">
+	<ul  class="menulist">
+	<li class="menuelement" style="margin-top:-65px;"><a href="index.html">Главная страница</a></li>
+	<li class="menuelement"><a href="changelogsH3hota.html">Изменения</a></li>
+	<li class="menuelement"><a href="coveH3hota.html">Причал</a>
+		<ul>
+		<li style="margin-top:-25px;"><a href="covebuildingsH3hota.html">Строения</a></li>
+		<li><a href="creaturesH3hota.html#covecreatures">Существа Причала</a></li>
+		<li><a href="heroesH3hota.html#coveheroes">Герои Причала</a></li>
+		<li><a href="covemageguild.html">Гильдия магов</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="creaturesH3hota.html">Существа</a></li>
+	<li class="menuelement"><a href="heroesH3hota.html">Герои</a></li>
+	<li class="menuelement"><a href="objectsH3hota.html">Объекты</a></li>
+	<li class="menuelement"><a href="artefactsH3hota.html">Артефакты</a></li>
+	</ul>
+	</div>
+	
+	
+	<div id="filler">
+	
+	<div class="objects">
+		<h2 style="margin-top:5px;">Объекты</h2>
+		
+		<div class="boxtag">
+		<h3>Одноразовые источники ресурсов</h3>
+		<table class="objtable">
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/res/wbarrel.png"/></span></td>
+		<th height="26px">Морская бочка</th></tr>
+		<tr><td valign="center">
+		-20% шанс не получить ничего;<br>
+		-80% шанс получить 3-6 ртути, серы, кристаллов или драг. камней.</td></tr>
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/res/wcrate.png"/></span></td>
+		<th height="26px">Потерянный груз</th></tr>
+		<tr><td valign="center">
+		-25% шанс не получить ничего;<br>
+		-25% шанс получить 5 руды;<br>
+		-25% шанс получить 5 руды и 200 золота;<br>
+		-25% шанс получить 10 руды и 500 золота.</td></tr>
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/res/wchest.png"/></span></td>
+		<th height="26px">Морской сундук</th></tr>
+		<tr><td valign="center">
+		-20% шанс не получить ничего;<br>
+		-70% шанс получить 1500 золота;<br>
+		-10% шанс получить 1500 золота и 1 случайный артефакт-сокровище.</td></tr>
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/res/manabottle.png"/></span></td>
+		<th height="26px">Склянка маны</th></tr>
+		<tr><td valign="center">
+		+30-60 маны (часть маны, превышающая стандартный максимум для героя, 
+		дается в половинном объеме).</td></tr>
+		</table></div><br><br>	
+	
+		
+		<div class="boxtag"> <a id="wrhouse"></a>
+		<h3>Склады</h3>
+		<span class="tabtab"></span>Склады - новый тип объектов, который один раз в неделю при посещении приносит определенное 
+		количество ресурсов.<br><br>		
+		<table class="objtable">
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/warehouses/woodwr.png"/></span></td>
+		<th height="26px">Склад древесины</th></tr>
+		<tr><td valign="center">Приносит 10 единиц древесины раз в неделю.</td></tr>
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/warehouses/orewr.png"/></span></td>
+		<th height="26px">Склад руды</th></tr>
+		<tr><td valign="center">Приносит 10 единиц руды раз в неделю.</td></tr>
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/warehouses/quicksilverwr.png"/></span></td>
+		<th height="26px">Склад ртути</th></tr>
+		<tr><td valign="center">Приносит 6 единиц ртути раз в неделю.</td></tr>
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/warehouses/sulfurwr.png"/></span></td>
+		<th height="26px">Склад серы</th></tr>
+		<tr><td valign="center">Приносит 6 единиц серы раз в неделю.</td></tr>
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/warehouses/crystalwr.png"/></span></td>
+		<th height="26px">Склад кристаллов</th></tr>
+		<tr><td valign="center">Приносит 6 кристаллов раз в неделю.</td></tr>
+		<tr><td rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/warehouses/gemwr.png"/></span></td>
+		<th height="26px">Склад изумрудов</th></tr>
+		<tr><td valign="center">Приносит 6 изумрудов раз в неделю.</td></tr>
+		</table></div><br><br>
+
+		<div class="boxtag"> <a name="learningobjects"></a>
+		<h3>Обучающие объекты</h3>
+		<h4 style="margin-top: 0px;">Водные</h4>
+		<table class="objtable">
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/schools/wshrine1.png"/></span></td>
+		<th height="26px">Святыня магического воплощения</th></tr><tr><td valign="center">Обучает заклинанию 1-ого уровня.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/schools/wshrine2.png"/></span></td>
+		<th height="26px">Святыня магического жеста</th></tr><tr><td valign="center">Обучает заклинанию 2-ого уровня.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/schools/wshrine3.png"/></span></td>
+		<th height="26px">Святыня магической мысли</th></tr><tr><td valign="center">Обучает заклинанию 3-ого уровня.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/schools/wshrine4.png"/></span></td>
+		<th height="26px">Святыня магической тайны</th></tr><tr><td valign="center">Обучает заклинанию 4-ого уровня.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/schools/wschool.png"/></span></td>
+		<th height="26px">Школа магии</th></tr><tr><td valign="center">За 1000 золота дает +1 к силе магии или знаниям на выбор.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img style="margin-bottom: 0px;" src="image/objects/schools/wacad.png"/></span></td>
+		<th height="26px"><a name="seaacad"></a>Академия мореплавания</th></tr><tr><td valign="center">За 2000 золота обучает или тренирует один из трех вторичных навыков на выбор.
+		Одним из навыков всегда является навигация.</td></tr>
+		</table><br>
+		<h4 style="margin-top: 0px;">Наземные</h4>
+		<table class="objtable">		
+		<a name="landshrine"></a>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/schools/landshrine.png"/></span></td>
+		<th height="26px">Святыня магической тайны</th></tr><tr><td valign="center">Обучает заклинанию 4-ого уровня.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/schools/magecolo.png"/></span></td>
+		<th height="26px"><a name="magecolo"></a>Колизей магов</th></tr><tr><td valign="center">Бесплатно дает +2 к силе магии или знаниям на выбор.</td></tr>
+		</table></div><br><br>		
+		
+		<div class="boxtag">
+		<h3>Банки и консерватории</h3>
+		<span class="tabtab"></span>В игру было добавлено множество различных банков и консерваторий. 
+		В банках герой сражается с охраной и в награду получает ресурсы и артефакты, а в консерваториях 
+		герой получает в награду дополнительных существ.<br><br>	
+		<a name="banks"></a>
+		<h3>Банки</h3>
+		<table class="objtable">
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/churchyard.png"/></span></td>
+		<th height="26px"><a name="banks1"></a>Погост</th></tr>
+		<tr><td valign="center">
+		<b>охрана</b>: 120 ходячих мертвецов<br>
+		<b>награда</b>: 2500 золота и 1 малый артефакт<br><br>
+		Посещение разграбленного погоста дает -1 к морали.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/mansion.png"/></span></td>
+		<th height="26px"><a name="banks2"></a>Особняк</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 40/60/80/100 вампиров-лордов<br>
+		<b>награда</b>: 2500/5000/7500/10000 золота, по 2/3/4/5 ртути, серы, кристаллов, <span class="nowrap">драг. камней</span> и <span class="nowrap">1 великий артефакт</span></td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/blacktower.png"/></span></td>
+		<th height="26px"><a name="banks3"></a>Черная башня</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 1 зеленый/1 красный/ <span class="nowrap">1 золотой/1 черный дракон</span><br>
+		<b>награда</b>: 2000/2250/3500/3750 золота и <span class="nowrap">1 малый артефакт</span></td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/den.png"/></span></td>
+		<th height="26px"><a name="banks4"></a>Вертеп (искл. из ГСК)</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 16/24/32/48 василисков<br>
+		<b>награда</b>: 3000/4500/6000/9000 золота</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/beholdersanc.png"/></span></td>
+		<th height="26px"><a name="banks5"></a>Святилище бехолдеров</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 50/75/100/150 бехолдеров<br>
+		<b>награда</b>: 3000/5000/6000/9000 золота и <span class="nowrap">1 великий артефакт</span></td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img style="margin-bottom: 3px;" src="image/objects/banks/seatemple.png"/></span></td>
+		<th height="26px"><a name="banks6"></a>Храм моря</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: <br>8/8/8/10 гидр, <br>6/7/7/9 морских змеев, <br>3/4/5/6 гидр-хаоса, <br>2/3/4/5 аспидов<br>
+		<b>награда</b>: 10000/15000/20000/30000 золота, <br>1/2/1/0 малых артефактов, <br>1/1/2/2 великих артефактов, <br>
+		1/1/0/0 артефактов-сокровищ, <br>0/0/1/2 артефактов-реликтов</td></tr>
+		</table><br>	
+		<a name="cons"></a>
+		<h3>Консерватории</h3>
+		<table class="objtable">
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/outpost.png"/></span></td>
+		<th height="26px"><a name="cons1"></a>Застава налетчиков</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 50/75/100/150 налетчиков<br>
+		<b>награда</b>: 4/6/8/12 циклопов</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/ivorytower.png"/></span></td>
+		<th height="26px"><a name="cons2"></a>Башня из слоновой кости (искл. из ГСК)</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 35/50/65/80 архимагов<br>
+		<b>награда</b>: 3/6/9/12 чародеев</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/expworkshop.png"/></span></td>
+		<th height="26px"><a name="cons3"></a>Опытный цех</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 50/100/150/200 железных големов<br>
+		<b>награда</b>: 1/2/3/4 гиганта</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/piratecavern.png"/></span></td>
+		<th height="26px"><a name="cons4"></a>Пиратская пещера (искл. из ГСК)</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 20/40/60/80 пиратов и 20/40/60/80 корсаров<br>
+		<b>награда</b>: 1/2/3/4 морских змеев</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/banks/redtower.png"/></span></td>
+		<th height="26px"><a name="cons5"></a>Алая башня</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: 35/70/105/140 огненных элементалей<br>
+		<b>награда</b>: 1/2/3/4 огненные птицы</td></tr>
+		</table></div><br><br>	
+		
+		<div class="boxtag"> <a name="otherobjects"></a>
+		<h3>Прочие объекты</h3>
+		<table class="objtable">
+		<a name="hillfort"></a>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/hillfort.png"/></span></td>
+		<th height="26px">Форт на холме (новый)</th></tr><tr><td valign="center">Позволяет улучшать существ 1-5 уровня за двойную цену.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img style="width:40px; height:60px;" src="image/objects/other/cannonyard.png"/></span></td>
+		<th height="26px"><a name="cannonyard"></a>Пушечный двор</th></tr><tr><td valign="center">Позволяет приобрести пушку.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/militaryfabric.png"/></span></td>
+		<th height="26px"><a name="militaryfabric"></a>Фабрика военной техники</th></tr><tr><td valign="center">Позволяет приобрести любую из трех военных машин: баллиста, палатка первой помощи и подвод с боеприпасами.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/winery.png"/></span></td>
+		<th height="26px"><a name="winery"></a>Винодельня</th></tr><tr><td valign="center">Позволяет нанять сатиров.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/ziggurat.png"/></span></td>
+		<th height="26px"><a name="ziggurat"></a>Зиккурат</th></tr><tr><td valign="center">Позволяет нанять фангармов.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/loyaltytemple.png"/></span></td>
+		<th height="26px"><a name="loyaltytemple"></a>Храм лояльности</th></tr><tr><td valign="center">Устраняет падение боевого духа из-за наличия существ различных фракций 
+		в армии героя до следующего хода.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/townportal.png"/></span></td>
+		<th height="26px"><a name="townportal"></a>Городские врата</th></tr><tr><td valign="center">Позволяет герою телепортироваться в любой дружественный город.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/skeltransformer.png"/></span></td>
+		<th height="26px"><a name="skeltransformer"></a>Преобразователь скелетов</th></tr><tr><td valign="center">Позволяет преобразовать всех существ в скелетов, 
+		за исключением драконов, гидр и морских змеев - они преобразуются в костяных драконов.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/waterplace.png"/></span></td>
+		<th height="26px"><a name="waterplace"></a>Водопой</th></tr><tr><td valign="center">При посещении герой теряет все оставшиеся очки передвижения, но получает +1000 
+		очков передвижения на следующий день.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/lamp.png"/></span></td>
+		<th height="26px"><a name="lamp"></a>Древняя лампа</th></tr><tr><td valign="center">Позволяет 1 раз нанять 4-7 верховных джиннов.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/manaaltar.png"/></span></td>
+		<th height="26px"><a name="manaaltar"></a>Алтарь маны</th></tr><tr><td valign="center">Герои могут приносить в жертву существ для получения маны вплоть до
+		учетверенного стандартного максимума.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/youthf.png"/></span></td>
+		<th height="26px"><a name="youthf"></a>Фонтан молодости</th></tr><tr><td valign="center">Дает +1 к боевому духу до следующего сражения и +400 к очкам передвижения до следующего дня.</td></tr>
+		<tr><td align="center" rowspan="2" class="objgif"><span style="margin:10px;"><img src="image/objects/other/observer.png"/></span></td>
+		<th height="26px"><a name="observer"></a>Обсерватория</th></tr><tr><td valign="center">Дает +2 к радиусу разведки до конца недели.</td></tr>
+		</table>
+		</div>	
+		
+	</div>		
+		
+		<p style="text-align:center; clear:left;">Вернуться в начало <a href="#top"><img src="gif/monolit.gif" title="вернуться в начало страницы"></a></p>
+				
+	</div>
+	</div>
+
+
+	<div class="bottomdiv">
+	<div id="footer">
+		<span style="top:-8px;"><a href="https://vk.com/h3hota" target="_blank">Heroes 3 HotA Официальное сообщество</a><br>
+		<a href="http://forum.df2.ru/index.php?showforum=90" target="_blank">DF2 Официальный форум HotA</a><br><br>
+		Автор: aabb<br>
+		Моя почта: bukalin_ao@mail.ru<br>
+		</span>
+		<img src="gif/lamp.gif"></img>
+	</div>
+	</div>
+
+
+</body>
+</html>
