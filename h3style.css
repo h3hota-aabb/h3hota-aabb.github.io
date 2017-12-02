@@ -135,6 +135,8 @@ margin: 3px 10px 0px 0px;
 body:first-of-type .searchinput { 
 border-radius: 0;
 box-shadow: 0;
+height: 17px;
+border: 0;
 }
 
 .clearbutton {
