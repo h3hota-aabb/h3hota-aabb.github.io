@@ -133,10 +133,11 @@ margin: 3px 10px 0px 0px;
 
 /*safari*/
 body:first-of-type .searchinput { 
-border-radius: 0;
-box-shadow: 0;
+width: 208px;
 height: 17px;
 border: 0;
+border-radius: 0;
+box-shadow: 0;
 }
 
 .clearbutton {
