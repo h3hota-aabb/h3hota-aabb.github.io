@@ -133,7 +133,7 @@ margin: 3px 10px 0px 0px;
 
 /*safari*/
 _::-webkit-full-page-media, _:future, :root .searchinput {
-width: 280px;
+width: 220px;
 height: 15px;
 border: 0.5px grey solid;
 border-radius: 0;
