@@ -137,6 +137,7 @@ width: 220px;
 height: 15px;
 border: 0.5px grey solid;
 border-radius: 0;
+box-shadow: 0;
 }
 
 .clearbutton {
