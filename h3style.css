@@ -1,11 +1,10 @@
 /*BODY STYLE*/
 
-/*@font-face {font-family: 'Open Sans'; src:("fonts/open-sans.ttf");}*/
+@font-face {font-family: 'Open Sans'; src:("fonts/open-sans.ttf");}
 
 body {
 cursor:default;
-font-family: Times New Roman;
-/*font-family: 'Open Sans';*/
+font-family: arial;
 }
 
 body a {cursor: pointer;}
@@ -26,7 +25,7 @@ top: -45px;
 }
 
 h2 {
-font-size: 26px;
+font-size: 24px;
 color: rgb(25, 25, 112);
 text-shadow: #1E90FF 0.5px 0.5px 0.5px;
 text-align: center;
@@ -34,13 +33,13 @@ margin-bottom: 20px;
 }
 
 h3 {
-font-size: 23px;
+font-size: 21px;
 color: #000;
 text-align: center;
 }
 
 h4 {
-font-size: 19px;
+font-size: 17px;
 color: #000;
 text-align: center;
 }
@@ -214,7 +213,7 @@ margin: 3px 0 0 0;
 #searchlist {width: 231px;}
 }
 
-#searchlist li {padding: 2px 0 2px 4px; font-weight: normal; font-size: 16px;}
+#searchlist li {padding: 2px 0 2px 4px; font-weight: normal; font-size: 14px;}
 #searchlist li:hover {background-color: rgba(0, 255, 255, 0.4);}
 
 /*MENU*/
@@ -240,7 +239,7 @@ padding:15px;
 .menulist a:hover, a:visited, a:link, a:active {text-decoration: none;}
 
 .menulist a {
-font-size: 16px;
+font-size: 14px;
 display:block; 
 width:120px; 
 min-height:25px; 
@@ -299,7 +298,8 @@ text-align: center;
 min-width: 600px;
 margin: 0 270px 60px 0px;
 padding: 0;
-font-size: 19px;
+font-size: 16px;
+line-height: 130%;
 text-align: justify;
 border: 50px solid;
 background-color: rgba(211, 211, 211, 0.8);
@@ -365,7 +365,8 @@ padding:5px;
 border:2px solid #000080;
 border-radius: 5px; 
 background-color: #E0FFFF; 
-font-size:15px; 
+font-size:14px; 
+line-height: 110%;
 text-align:left; 
 color:black; 
 z-index:1;
@@ -414,7 +415,7 @@ margin: 25px 0 0 0;
 /*CHANGELOGS*/
 
 .changelogsdiv {
-background-color: rgba(224, 255, 255, 0.8); 
+background-color: rgba(204, 255, 255, 0.8); 
 border: 0; 
 border-radius: 10px; 
 padding: 5px 15px 5px 15px;
@@ -426,7 +427,7 @@ margin: 5px 0 20px 0;
 
 .hiddendiv {margin: -5px 0 5px 25px;}
 
-.changetitle {text-align: left; color: #191970; font-size: 22px; margin-bottom: 0px;}
+.changetitle {text-align: left; color: #191970; font-size: 19px; margin-bottom: 0px;}
 
 .innlist li {margin-bottom:15px;}
 
@@ -469,7 +470,7 @@ width:100%;
 margin: 0 auto;
 }
 
-.covetable th {font-size: 19px; border: 0; text-align: left; background-color: #DAA520; padding: 2px 0 2px 7px;}
+.covetable th {font-size: 16px; border: 0; text-align: left; background-color: #DAA520; padding: 2px 0 2px 7px;}
 .covetable td {padding:7px;}
 .covetable .coveimgtd img {margin-bottom: 0px;}
 
@@ -488,7 +489,7 @@ text-align:center;
 float: left;
 }
 
-.mageguildtable th {padding:3px 0 3px 0; font-weight: normal; font-size: 19px; background-color: #DAA520;}
+.mageguildtable th {padding:3px 0 3px 0; font-weight: normal; font-size: 16px; background-color: #DAA520;}
 .mageguildtable td, .mageguildtable th {border: 2px solid #000080;margin: -10px;}
 .mageguildtable img {margin: 5px 4px 1px 5px; width: 40px; height: 40px;}
 .mageguildtable .texttd {width: 60px;}
@@ -513,13 +514,13 @@ margin: 0 auto;
 .creatureTable {
 background: #F0E68C;
 text-align:left;
-font-size: 18px;
+font-size: 16px;
 border: 2px solid #000080;
 border-collapse: collapse;
 padding: 0;
 }
 
-.creatureTable th {border: 2px solid #000080; font-weight: normal; font-size: 18px; background-color: #DAA520;}
+.creatureTable th {border: 2px solid #000080; font-weight: normal; font-size: 16px; background-color: #DAA520;}
 .creatureTable td {border: 2px solid #000080;}
 .creatureTable .hinttagtext {min-width: 10px; left: -35px; }
 
@@ -544,7 +545,7 @@ width:86%;
 min-width:460px;
 }
 
-.objtable th {height: 26px; font-size: 19px; border: 0; text-align: left; background-color: #DAA520; padding: 2px 0 2px 7px;}
+.objtable th {height: 26px; font-size: 16px; border: 0; text-align: left; background-color: #DAA520; padding: 2px 0 2px 7px;}
 .objtable td {padding:7px; border: 2px solid #000080; border-top: 0;}
 .objtable img {margin-bottom: 0.5px;}
 
@@ -563,7 +564,7 @@ border-collapse:collapse;
 margin: 0px auto;
 }
 
-.arttable th {font-size: 19px; border: 0; text-align: left; background-color: #DAA520; padding: 2px 0 2px 7px;}
+.arttable th {font-size: 16px; border: 0; text-align: left; background-color: #DAA520; padding: 2px 0 2px 7px;}
 .arttable td {padding:7px;}
 .arttable span {margin: 5px;}
 .arttable img {margin-bottom: 0.5px;}
@@ -582,7 +583,7 @@ font-weight: bold;
 /*HEROES*/
 
 .heroes .boxtag {width:90%; min-width:570px; max-width:700px;}
-.heroes h4 {font-size: 22px;}
+.heroes h4 {font-size: 20px;}
 
 .herotable {
 background: #F0E68C;
@@ -593,7 +594,7 @@ margin: 30px auto;
 }
 
 .herotable td, .herotable th {text-align:center; border: 0;}
-.herotable th {font-weight:normal; font-size:19px; background-color:#DAA520; border-right: 2px solid #000080; padding: 3px 5px;}
+.herotable th {font-weight:normal; font-size:17px; background-color:#DAA520; border-right: 2px solid #000080; padding: 3px 5px;}
 .herotable td {border-bottom: 0;}
 .herotable  .hinttagtext{left: -85px; transition:all 0.0s ease;}
 
@@ -627,7 +628,7 @@ border: 2px solid #000080;
 padding: -10px;
 }
 
-.primesktable th {font-weight:normal; font-size:19px; background-color:#DAA520;}
+.primesktable th {font-weight:normal; font-size:16px; background-color:#DAA520;}
 .primesktable td, th {border: 2px solid #000080;margin: -10px;}
 .primesktable img {margin: 5px 4px 1px 5px;}
 
@@ -677,7 +678,7 @@ border: 2px solid #000080;
 padding: -10px;
 }
 
-.armytable td {border: 2px solid #000080;margin: -10px; font-size:15px;}
+.armytable td {border: 2px solid #000080;margin: -10px; font-size:13px;}
 .armytable img {margin: 3px 3px -2px 4px; width: 30px; height: 30px;}
 
 .heropagetable {
@@ -686,7 +687,7 @@ background: #F0E68C;
 border: 2px solid #000080;
 border-collapse:collapse; 
 float:left; 
-font-size: 18px;
+font-size: 16px;
 }
 
 .heropagetable td {padding:7px; border: 2px solid #000080;}
