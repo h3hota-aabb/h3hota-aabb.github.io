@@ -404,7 +404,7 @@ height:1px;
 /*MAIN PAGE*/
 
 .mainpageinfo {
-background-color: rgba(204, 255, 255, 0.8); 
+background-color: rgba(224, 255, 255, 0.8); 
 border: 0; 
 border-radius: 10px; 
 padding: 15px;
@@ -414,7 +414,7 @@ margin: 25px 0 0 0;
 /*CHANGELOGS*/
 
 .changelogsdiv {
-background-color: rgba(204, 255, 255, 0.8); 
+background-color: rgba(224, 255, 255, 0.8); 
 border: 0; 
 border-radius: 10px; 
 padding: 5px 15px 5px 15px;
