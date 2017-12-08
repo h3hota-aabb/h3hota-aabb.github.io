@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Главная - Heroes 3 HotA </title>
+	<meta http-equiv="Content Type" content="text/html" charset="UTF-8" />
+	<meta name="description" content="Сайт посвящен глобальному дополнению Horn of the Abyss (HotA) к игре Heroes of Might and Magic III.
+	Здесь можно найти все основные нововведения и изменения, добавленные в дополнении." />
+	<meta name="keywords" content="Heroes, III, Horn, of, the, Abyss, HotA, Cove, герои, 3, Рог, Бездны, Причал" />
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	
+	<link rel="stylesheet" type="text/css" href="h3style.css"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="h3style1600.css"/>
+	<script type="text/javascript" src="h3search.js" charset="utf-8"></script>
+</head>
+
+
+<body>
+<img src="image/hotabg.jpg" id="backgroung"></img> <a name="top"></a>
+
+
+	<div class="topdiv"><img src="gif/header_gif2.gif" id="header_gif"></img></div>
+	
+	<div class="headerdiv">
+	<h1>HEROES 3: Horn of the Abyss</h1> 
+	</div>
+	
+	<div class="bigsearchdiv">
+	<div class="searchdiv">		
+		<form name="searchform" onsubmit="return false;"> 		
+		<input type="text" name="searchinput" class="searchinput" value="" placeholder="найти.." size="30" maxlength="30" autocomplete="off"
+		onfocus="this.placeholder=''; incorrectinput(); strcmp();"  onblur="deleteList();" oninput="strcmp();" onkeydown="inputevent(event);">
+		<a class="clearbutton" onclick="clearinput();"></a>
+		</form>
+		<button class="searchbutton" onclick="findindex();"><span>поиск</span></button> 	
+
+		<ul id="searchlist" onmouseover="onmouseoverfunc(event);"></ul>		
+	</div></div>	 
+	 
+	<div class="maindiv">
+	<div  class="menu">
+	<ul  class="menulist">
+	<li class="menuelement" style="margin-top:-65px;"><a href="index.html">Главная страница</a></li>
+	<li class="menuelement"><a href="changelogsH3hota.html">Изменения</a></li>
+	<li class="menuelement"><a href="coveH3hota.html">Причал</a>
+		<ul class="submenu_1">
+		<li style="margin-top:-25px;"><a href="covebuildingsH3hota.html">Строения</a></li>
+		<li><a href="creaturesH3hota.html#covecreatures">Существа Причала</a></li>
+		<li><a href="heroesH3hota.html#coveheroes">Герои Причала</a></li>
+		<li><a href="covemageguild.html">Гильдия магов</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="creaturesH3hota.html">Существа</a>
+		<ul class="submenu_2">
+		<li style="margin-top:-25px;"><a href="creaturesH3hota.html#covecreatures">Существа Причала</a></li>
+		<li><a href="creaturesH3hota.html#neutralcreatures">Нейтральные</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="heroesH3hota.html">Герои</a>
+		<ul class="submenu_3">
+		<li style="margin-top:-25px;"><a href="heroesH3hota.html#coveheroes">Герои Причала</a></li>
+		<li><a href="heroesH3hota.html#otherheroes">Прочие</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="objectsH3hota.html">Объекты</a></li>
+	<li class="menuelement"><a href="artefactsH3hota.html">Артефакты</a></li>
+	</ul>
+	</div>
+	
+	
+	<div id="filler">	
+	
+		<p><span style="font-size: 1.1em; font-weight: bold">Horn of the Abyss (HotA)</span> - глобальное дополнение к игре Heroes of Might and Magic III.</p>
+		
+		<p>Сайт посвящен основным изменениям и нововведениям, которые были добавлены в дополнении. Информация, имеющаяся на сайте на текущий день, 
+		соответствует <b>версии HotA 1.4.2</b>.</p>
+		
+		<div class="mainpageinfo">
+		<span style="font-size: 1.1em; font-weight: bold">Что нового принесла HotA?</span>
+		<ul style="margin: 15px 10px 10px -20px; list-style-image: url(image/special/swordicon.png);">
+		<li style="margin-bottom: 15px;">Доступен новый тип города - Причал.</li>
+		<li style="margin-bottom: 15px;">Новые существа, герои, объекты и артефакты.</li>
+		<li style="margin-bottom: 15px;">3 новые кампании.</li>
+		<li style="margin-bottom: 15px;">Множество изменеий игрового процесса и интерфейса.</li>
+		<li style="margin-bottom: 15px;">Новый внешний вид cтарых объектов (некоторые города, существа, монолиты и т.д.).</li>
+		</ul></div>
+		
+		<p>Вся информация о новых патчах и последующих изменениях также в дальнейшем будет отображена на сайте. 
+		Данный сайт <span class="nowrap" style="text-decoration: underline; font-weight: bold;">не является официальным</span>, 
+		это всего лишь <span class="nowrap" style="text-decoration: underline; font-weight: bold;">фан-версия</span>.</p>
+		
+		<p style="font-size: 1.1em; margin-top: -5px; font-weight: bold; line-height: 1.8em;">Полезные ссылки:</p>
+		<ul style="margin-top:-15px; list-style-type:none;">
+		<li style="margin: 0 0 15px -35px;"><a href="https://vk.com/h3hota" target="_blank">официальная группа В Контакте</a> (новости, ссылка на скачивание последней версии игры и прочая информация);</li>
+		<li style="margin: 0 0 0 -35px;"><a href="http://forum.df2.ru/index.php?showforum=90" target="_blank">официальный форум</a> (вопросы по игре, предложения по улучшению, полная детальная документация к дополнению).</li>
+		</ul>
+
+		
+		<p style="text-align:center; clear:left;"><a href="#top">Вернуться в начало <img src="gif/monolit.gif" title="вернуться в начало страницы"></a></p>				
+	</div>
+	</div>
+
+
+	<div class="bottomdiv">
+	<div id="footer">
+		<span style="top:-8px;"><a href="https://vk.com/h3hota" target="_blank">Heroes 3 HotA Официальное сообщество</a></br>
+		<a href="http://forum.df2.ru/index.php?showforum=90" target="_blank">DF2 Официальный форум HotA</a></br></br>
+		Автор: aabb</br>
+		Моя почта: bukalin_ao@mail.ru</br>
+		</span>
+		<img src="gif/lamp.gif"></img>
+	</div>
+	</div>
+
+
+</body>
+</html>
