@@ -11,6 +11,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="../h3style.css"/>
 	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="../h3style1600.css"/>
+	<script type="text/javascript" src="subh3search.js" charset="utf-8"></script>
 </head>
 
 
@@ -23,12 +24,24 @@
 	<div class="headerdiv">
 	<h1>HEROES 3: Horn of the Abyss</h1> 
 	</div>
-	 
+	
+	<div class="bigsearchdiv">
+	<div class="searchdiv">		
+		<form name="searchform" onsubmit="return false;"> 		
+		<input type="text" name="searchinput" class="searchinput" value="" placeholder="найти.." size="30" maxlength="30" autocomplete="off"
+		onfocus="this.placeholder=''; incorrectinput(); strcmp();"  onblur="deleteList();" oninput="strcmp();" onkeydown="inputevent(event);">
+		<a class="clearbutton" onclick="clearinput();"></a>
+		</form>
+		<button class="searchbutton" onclick="findindex();"><span>поиск</span></button> 	
+
+		<ul id="searchlist" onmouseover="onmouseoverfunc(event);"></ul>		
+	</div></div>
 	 
 	<div class="maindiv">
 	<div  class="menu">
 	<ul  class="menulist">
 	<li class="menuelement" style="margin-top:-65px;"><a href="../index.html">Главная страница</a></li>
+	<li class="menuelement"><a href="../newsH3hota.html">Новости</a></li>
 	<li class="menuelement"><a href="../changelogsH3hota.html">Изменения</a></li>
 	<li class="menuelement"><a href="../coveH3hota.html">Причал</a>
 		<ul class="submenu_1">
