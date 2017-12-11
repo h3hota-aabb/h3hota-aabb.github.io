@@ -80,7 +80,7 @@ _:-ms-lang(x), .menulist a{width:122px;margin:6px 0 0 -33px;}
 .newsclass{}
 .newsclass h2{margin-top:0px;font-size: 20px;}
 .newsclass a{color:rgb(25, 25, 112);text-shadow:#1E90FF 0.5px 0.5px 0.5px;}
-.newsdate {font-size: 14px; font-weight: bold; margin-top: 30px;}
+.newsdate {font-size: 14px; font-weight: bold;}
 .newslistimage01 {width: 200px;}
 .newsimgdiv {float: right;margin: 5px 0px 15px 25px;}
 .newsimgdiv img {width: 100%; height: 100%; cursor: pointer;}
