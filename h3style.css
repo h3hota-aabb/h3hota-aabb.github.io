@@ -44,7 +44,7 @@ _:-ms-lang(x), .clearbutton:hover{background-size:18px 16px;}
 }
 #searchlist li{padding:2px 0 2px 4px;font-weight:normal;font-size:14px;}
 #searchlist li:hover{background-color:rgba(0, 255, 255, 0.4);}
-.menu{width:95px;height:260px;background-color:rgba(211, 211, 211, 0.8);float:right;padding:0;margin:0 0px 60px 0;border:50px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+.menu{width:95px;height:310px;background-color:rgba(211, 211, 211, 0.8);float:right;padding:0;margin:0 0px 60px 0;border:50px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
 .menulist{list-style-type:none;position:relative;padding:15px;}
 .menulist a:hover, a:visited, a:link, a:active{text-decoration:none;}
 .menulist a{font-size:14px;display:block;width:120px;min-height:25px;background:rgb(224, 255, 255);color:black;border-radius:10px;padding:10px 5px 5px 5px;margin:6px 0 0 -32px;}
@@ -77,6 +77,13 @@ _:-ms-lang(x), .menulist a{width:122px;margin:6px 0 0 -33px;}
 .tabtab{border:0;padding:0;margin:0;width:2em;height:4px;display:inline-block;}
 .space{border:0;padding:0;margin:0 auto;height:1px;}
 .mainpageinfo{background-color:rgba(224, 255, 255, 0.8);border:0;border-radius:10px;padding:15px;margin:25px 0 0 0;}
+.newstitle {font-size: 20px; margin-top:5px;}
+.newsdate {font-size: 14px; font-weight: bold;}
+.newslistimage01 {width: 200px;}
+.newsimgdiv {float: right;margin: 5px 0px 15px 25px;}
+.newsimgdiv img {width: 100%; height: 100%; cursor: pointer;}
+.news01 {width: 350px;}
+.newsdiv {background-color: rgba(224, 255, 255, 0.8); border: 0; border-radius: 10px; padding: 15px 5px 5px 15px;margin: 0px 0px 0px 0px;}
 .changelogsdiv{background-color:rgba(204, 255, 255, 0.8);border:0;border-radius:10px;padding:5px 15px 5px 15px;margin:5px 0 20px 0;}
 .changelogsdiv li{margin-bottom:15px;}
 .resizebutton{width:18px;height:18px;float:left;background-image:url(image/special/plus.png);margin:2px 10px 0px 0px;cursor:pointer;}

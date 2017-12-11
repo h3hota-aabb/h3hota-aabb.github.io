@@ -30,7 +30,7 @@ _:-ms-lang(x), .clearbutton:hover{background-size:22px 20px;}
 #searchlist li{font-size:17px;}
 @-moz-document url-prefix(){#searchlist{width:283px;}
 }
-.menu{width:125px;height:310px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+.menu{width:125px;height:365px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
 .menulist a{width:150px;min-height:30px;font-size:17px;margin-bottom:8px;}
 _:-ms-lang(x), .menulist a{width:152px;margin-bottom:8px;}
 .menulist li ul{width:125px;left:-257px;}
@@ -48,6 +48,10 @@ _:-ms-lang(x), .menulist a{width:152px;margin-bottom:8px;}
 .boxtag table{border:2.5px solid #000080}
 .sometables{width:660px;}
 .hinttagtext{top:22px;left:-130px;min-width:200px;font-size:17px;border:2.5px solid #000080;}
+.newstitle {font-size: 24px;}
+.newsdate {font-size: 17px;}
+.newslistimage01 {width: 280px; margin-left: 30px;}
+.news01 {width: 450px;}
 .resizebutton{width:22px;height:22px;background-size:22px;margin:3px 12px 0px 0px;}
 .changetitle{font-size:24px;}
 .miniimg img{width:120px;border:2.5px #191970 solid;}
