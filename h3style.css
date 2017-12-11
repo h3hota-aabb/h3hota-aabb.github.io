@@ -77,8 +77,10 @@ _:-ms-lang(x), .menulist a{width:122px;margin:6px 0 0 -33px;}
 .tabtab{border:0;padding:0;margin:0;width:2em;height:4px;display:inline-block;}
 .space{border:0;padding:0;margin:0 auto;height:1px;}
 .mainpageinfo{background-color:rgba(224, 255, 255, 0.8);border:0;border-radius:10px;padding:15px;margin:25px 0 0 0;}
-.newstitle {font-size: 20px; margin-top:5px;}
-.newsdate {font-size: 14px; font-weight: bold;}
+.newsclass{}
+.newsclass h2{margin-top:0px;font-size: 20px;}
+.newsclass a{color:rgb(25, 25, 112);text-shadow:#1E90FF 0.5px 0.5px 0.5px;}
+.newsdate {font-size: 14px; font-weight: bold; margin-top: 30px;}
 .newslistimage01 {width: 200px;}
 .newsimgdiv {float: right;margin: 5px 0px 15px 25px;}
 .newsimgdiv img {width: 100%; height: 100%; cursor: pointer;}

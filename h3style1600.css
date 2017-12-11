@@ -48,7 +48,7 @@ _:-ms-lang(x), .menulist a{width:152px;margin-bottom:8px;}
 .boxtag table{border:2.5px solid #000080}
 .sometables{width:660px;}
 .hinttagtext{top:22px;left:-130px;min-width:200px;font-size:17px;border:2.5px solid #000080;}
-.newstitle {font-size: 24px;}
+.newsclass h2{font-size: 24px;}
 .newsdate {font-size: 17px;}
 .newslistimage01 {width: 280px; margin-left: 30px;}
 .news01 {width: 450px;}
