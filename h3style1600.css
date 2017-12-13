@@ -30,13 +30,13 @@ _:-ms-lang(x), .clearbutton:hover{background-size:22px 20px;}
 #searchlist li{font-size:17px;}
 @-moz-document url-prefix(){#searchlist{width:283px;}
 }
-.menu{width:125px;height:365px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
-.menulist a{width:150px;min-height:30px;font-size:17px;margin-bottom:8px;}
-_:-ms-lang(x), .menulist a{width:152px;margin-bottom:8px;}
-.menulist li ul{width:125px;left:-257px;}
-.submenu_1{height:168px;top:-100px;}
-.submenu_2{height:64px;}
-.submenu_3{height:64px;}
+.menu{width:125px;height:382px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+.menulist a{width:158px;min-height:32px;font-size:17px;padding-top:12px;margin-top:0px;margin-bottom:8px;}
+_:-ms-lang(x), .menulist a{width:160px;margin-bottom:8px;}
+.menulist li ul{width:125px;left:-280px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+.submenu_1{height:157px;top:-113px;}
+.submenu_2{height:47px;top:-58px;}
+.submenu_3{height:47px;top:-58px;}
 .menulist li ul a{width:170px;}
 #filler{max-width:1200px;font-size:21px;margin-right:330px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
 [src*="monolit"]{width:56px;}

@@ -1,3 +1,4 @@
+@font-face{font-family:Gabriela-Regular;src:url(fonts/gabriela.ttf);}
 body{cursor:default;font-family:arial;}
 body a{cursor:pointer;}
 a{text-decoration:none;}
@@ -44,28 +45,28 @@ _:-ms-lang(x), .clearbutton:hover{background-size:18px 16px;}
 }
 #searchlist li{padding:2px 0 2px 4px;font-weight:normal;font-size:14px;}
 #searchlist li:hover{background-color:rgba(0, 255, 255, 0.4);}
-.menu{width:95px;height:310px;background-color:rgba(211, 211, 211, 0.8);float:right;padding:0;margin:0 0px 60px 0;border:50px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+.menu{width:95px;height:310px;background-color:rgba(220, 200, 120, 0.7);float:right;padding:0;margin:0 0px 60px 0;border:50px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
 .menulist{list-style-type:none;position:relative;padding:15px;}
+.menulist a{font-family:Gabriela-Regular;font-size:14px;display:block;width:128px;min-height:25px;background:#58381d;color:#ddc773;border-radius:10px;padding:10px 5px 5px 5px;margin:6px 0 0 -36px;}
+_:-ms-lang(x), .menulist a{width:130px;margin:6px 0 0 -37px;}
 .menulist a:hover, a:visited, a:link, a:active{text-decoration:none;}
-.menulist a{font-size:14px;display:block;width:120px;min-height:25px;background:rgb(224, 255, 255);color:black;border-radius:10px;padding:10px 5px 5px 5px;margin:6px 0 0 -32px;}
-_:-ms-lang(x), .menulist a{width:122px;margin:6px 0 0 -33px;}
-.menulist a:visited{color:black;}
-.menulist a:hover{color:white;background:#4169E1;transition:0.5s;}
+.menulist a:visited{color:#ddc773;}
+.menulist a:hover{color:white;background-color:#4c0000;transition:0.5s;}
 .menuelement{position:relative;margin:0;text-align:center;}
-.menulist li ul{z-index:1;width:95px;list-style:none;padding:0;margin:0;position:absolute;left:-227px;border:50px solid;background-color:rgba(211, 211, 211, 0.8);border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;visibility:hidden;opacity:0;transition:0.5s;}
-.submenu_1{height:140px;top:-100px;}
-.submenu_2{height:50px;top:-55px;}
-.submenu_3{height:50px;top:-55px;}
+.menulist li ul{z-index:1;width:95px;list-style:none;padding:0;margin:0;position:absolute;left:-230px;border:50px solid;background-color:rgba(220, 200, 120, 0.7);border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;visibility:hidden;opacity:0;transition:0.5s;}
+.submenu_1{height:122px;top:-90px;}
+.submenu_2{height:30px;top:-44px;}
+.submenu_3{height:30px;top:-44px;}
 .menulist li ul li{position:relative;margin:0 0 0 5px;text-align:center;}
-.menulist li ul a{width:140px;}
+.menulist li ul a{width:140px;margin:6px 0 0 -32px;}
 .menulist li:hover ul{display:block;opacity:1;visibility:visible;}
-#filler{min-width:600px;margin:0 270px 60px 0px;padding:0;font-size:16px;line-height:130%;text-align:justify;border:50px solid;background-color:rgba(211, 211, 211, 0.8);border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+#filler{min-width:600px;margin:0 270px 60px 0px;padding:0;font-size:16px;line-height:130%;text-align:justify;border:50px solid;background-color:rgba(220, 200, 120, 0.7);border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
 [src*="monolit"]{width:47px;}
 [src*="blackmonolith"]{width:42px;}
-#footer{height:20px;margin:0;position:relative;border:50px solid;background-color:rgba(211, 211, 211, 0.8);border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+#footer{height:20px;margin:0;position:relative;border:50px solid;background-color:rgba(220, 200, 120, 0.7);border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
 #footer span{display:inline-block;position:absolute;margin:-25px 0 0 -10px;font-size:14px;}
 #footer img{float:right;margin:-10px 0 0 0;}
-.boxtag{margin:auto;background:rgba(0, 120, 120, 0.6);padding:15px 15px;border-radius:15px;border:2px solid #000080;text-align:justify;}
+.boxtag{margin:auto;background:rgba(0, 120, 120, 0.7);padding:15px 15px;border-radius:15px;border:2px solid #000080;text-align:justify;}
 .boxtag a:hover{color:white;}
 .sometables{width:550px;height:auto;position:relative;margin:0 auto;}
 .hinttag{position:relative;cursor:default;font-weight:700;}
@@ -76,7 +77,7 @@ _:-ms-lang(x), .menulist a{width:122px;margin:6px 0 0 -33px;}
 .nowrap{white-space:nowrap;}
 .tabtab{border:0;padding:0;margin:0;width:2em;height:4px;display:inline-block;}
 .space{border:0;padding:0;margin:0 auto;height:1px;}
-.mainpageinfo{background-color:rgba(224, 255, 255, 0.8);border:0;border-radius:10px;padding:15px;margin:25px 0 0 0;}
+.mainpageinfo{background-color:rgba(220, 255, 255, 0.8);border:0;border-radius:10px;padding:15px;margin:25px 0 0 0;}
 .newsclass{}
 .newsclass h2{margin-top:0px;font-size: 20px;}
 .newsclass a{color:rgb(25, 25, 112);text-shadow:#1E90FF 0.5px 0.5px 0.5px;}
@@ -85,8 +86,8 @@ _:-ms-lang(x), .menulist a{width:122px;margin:6px 0 0 -33px;}
 .newsimgdiv {float: right;margin: 5px 0px 15px 25px;}
 .newsimgdiv img {width: 100%; height: 100%; cursor: pointer;}
 .news01 {width: 350px;}
-.newsdiv {background-color: rgba(224, 255, 255, 0.8); border: 0; border-radius: 10px; padding: 15px 5px 5px 15px;margin: 0px 0px 0px 0px;}
-.changelogsdiv{background-color:rgba(204, 255, 255, 0.8);border:0;border-radius:10px;padding:5px 15px 5px 15px;margin:5px 0 20px 0;}
+.newsdiv {background-color: rgba(220, 255, 255, 0.8); border: 0; border-radius: 10px; padding: 15px 5px 5px 15px;margin: 0px 0px 0px 0px;}
+.changelogsdiv{background-color:rgba(220, 255, 255, 0.8);border:0;border-radius:10px;padding:5px 15px 5px 15px;margin:5px 0 20px 0;}
 .changelogsdiv li{margin-bottom:15px;}
 .resizebutton{width:18px;height:18px;float:left;background-image:url(image/special/plus.png);margin:2px 10px 0px 0px;cursor:pointer;}
 .hiddendiv{margin:-5px 0 5px 25px;}
