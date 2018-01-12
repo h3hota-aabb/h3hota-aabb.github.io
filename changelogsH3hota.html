@@ -5,6 +5,8 @@
 	<meta http-equiv="Content Type" content="text/html" charset="UTF-8" />
 	<meta name="description" content="Heroes 3 HotA. Описание основных изменений. Изменения игрового процесса, объектов, интерфейса, исправление багов." />
 	<meta name="keywords" content="Heroes, III, Horn, of, the, Abyss, HotA, Cove, герои, 3, Рог, Бездны, Причал" />
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="address=no"/>
 	<link rel="apple-touch-icon" sizes="76x76" href="image/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
@@ -82,8 +84,8 @@
 		<h2 style="margin-top:5px; margin-bottom: 0px;">Изменения</h2><div class="space"></div>
 		
 		<p> <span class="tabtab"></span>Здесь отображены основные нововведения HotA, касающиеся игрового процесса. Полное описание, включающее 
-		в себя всю информацию об изменениях в новом дополнении, можно найти на <a href="http://forum.df2.ru/index.php?showtopic=27888" target="_blank">официальном форуме</a>.
-		</p>
+		в себя всю информацию об изменениях в новом дополнении, можно найти на <a href="http://h3hota.com/ru/documentation" target="_blank">официальном сайте</a> 
+		или на <a href="http://forum.df2.ru/index.php?showtopic=27888" target="_blank">форуме</a>.</p>
 		
 		<div class="mainpageinfo">
 		<span style="font-size: 1.1em; font-weight: bold">Изменения</span>
@@ -93,7 +95,9 @@
 		<li style="margin-bottom: 15px;"><a href="#objchanges">Изменения стандартных объектов.</a></li>
 		<li style="margin-bottom: 15px;"><a href="#interfacechanges">Изменения интерфейса.</a></li>
 		<li style="margin-bottom: 15px;"><a href="#bagschanges">Исправление багов игрового процесса.</a></li>
+		<li style="margin-bottom: 15px;"><a href="#aichanges">Изменения и исправление багов ИИ.</a></li>
 		<li style="margin-bottom: 15px;"><a href="#gskchanges">Исправление багов ГСК (генератор случайных карт).</a></li>
+		<li style="margin-bottom: 15px;"><a href="#otherchanges">Прочие изменения.</a></li>
 		</ul></div>
 			
 				
@@ -129,12 +133,26 @@
 			</ul>
 			</div></div>
 		На случайных картах без воды стартовое заклинание героя Джем Вызвать корабль было изменено на Благословение.</li>
-		<li><span class="listmainrow">На случайных картах отключены недели и месяцы существ и чумы.</span><br>
+		<li><span class="listmainrow">На случайных картах отключены недели и месяцы существ и чумы.</span><br></li>
 		<li><span class="listmainrow">Стрелковая башня полностью игнорирует защиту цели.</span><br>
 		Также см. <a href="#bags4">"исправление багов игрового процесса" п.4.</a></li>
 		<li><span class="listmainrow">Оковы войны действуют только когда у обеих сторон в битве есть герои.</span><br>
 		Раньше, имея на себе Оковы войны, нельзя было сбежать от нейтрального отряда.</li>
-		</ol><div class="space"></div>
+		</ol>
+		<b>С версии 1.5.0:</b><br>
+		<ol class="innlist" start="12">
+		<li><span class="listmainrow">Добавлен механизм исследования заклинаний, позволяющий за плату изменять заклинания в Гильдии магов.</span></li>
+		<li><span class="listmainrow">Добавлена возможность отказаться от изучения вторичного навыка, предлагаемого Хижиной ведьмы или Ученым.</span></li>
+		<li><span class="listmainrow">Добавлена возможность атаковать стрелками врукопашную, атаковать гарпиями без возврата, атаковать Сказочными драконами вместо колдовства и передвигаться Архангелами и Властителями пропасти вместо воскрешения трупа (переключение по специальной кнопке или клавише Alt).</span></li>
+		<li><span class="listmainrow">Добавлена возможность передвигать двухклеточных существ в бою на одну клетку назад.</span></li>
+		<li><span class="listmainrow">Сфера запрещения и Плащ отречения теперь запрещены по умолчанию.</span></li>
+		<li><span class="listmainrow">Древняя лампа запрещена на случайных картах.</span></li>
+		<li><span class="listmainrow">Теперь при повторном колдовстве Полета после улучшения навыка Магии воздуха (и при его колдовстве с надетыми Крыльями ангела) уровень полета улучшается и тратится мана.</span></li>
+		<li><span class="listmainrow">При увеличении уровня Мудрости в городе герой автоматически изучает ставшие доступными заклинания города.</span></li>
+		<li><span class="listmainrow">На случайных картах неподбираемые объекты больше не могут генерироваться на дорогах.</span></li>
+		<li><span class="listmainrow">Добавлена возможность генерации на случайных картах Ящиков пандоры и Хижин провидцев с любыми существами.</span></li>
+		</ol>
+		<div class="space"></div>
 		
 		
 		<a name="townchanges"></a>
@@ -251,7 +269,9 @@
 			<ul style="margin: 15px 0 0 -20px; font-weight: bold; list-style-image: url(image/special/swordicon.png);">
 				<li>Стартовые армии героев</li>
 				<ul type="disc" style="margin: 10px 0 0 -20px; font-weight: normal; list-style-image: none;">
-					<li>Количество Троглодитов уменьшено с 30-40 до 20-30.</li></ul>
+					<li>Количество Троглодитов уменьшено с 30-40 до 20-30.</li>
+					<li>Количество Гарпий увеличено с 4–6 до 6–8 <b>(с версии 1.5.0)</b>.</li>
+				</ul>
 			</ul>
 			</div>
 		</div>
@@ -286,6 +306,7 @@
 			<div id="conflux" class="resizebutton" onclick="showdiv(this.id);"></div><span id="confluxspan" class="listmainrow spshowdiv" onclick="showdiv2(this.id);">Сопряжение</span>
 			<div class="hiddendiv" style="display: none;">
 			<ul style="margin: 15px 0 0 -20px; font-weight: bold; list-style-image: url(image/special/swordicon.png);">
+				<li>Добавлен новый тип родной земли для Сопряжения — высокогорье; штраф на перемещение по высокогорью отсутствует (с версии 1.5.0).</li>
 				<li>Прирост Огненных птиц и Фениксов снижен до 1 (2 после постройки Замка).</li>
 				<li>Новая постройка: Погребальная урна</li>
 				<ul type="disc" style="margin: 10px 0 0 -20px; font-weight: normal; list-style-image: none;">
@@ -302,7 +323,9 @@
 					<li>Цена Погребального костра увеличена с 10 до 20 ртути и с 10000 до 15000 золота.</li></ul>
 				<li>Строения</li>
 				<ul type="disc" style="margin: 10px 0 0 -20px; font-weight: normal; list-style-image: none;">
-					<li>Северное сияние позволяет изучать заклинания только тех уровней, для которых в городе с ней построена Гильдия магов.</li></ul>
+					<li>Северное сияние позволяет изучать заклинания только тех уровней, для которых в городе с ней построена Гильдия магов.</li>
+					<li>Северное сияние больше не дает заклинаний, запрещенных для Сопряжения, кроме случаев, когда они настроены как обязательные для данного города <b>(с версии 1.5.0)</b>.</li>
+				</ul>
 				<li>Существа</li>
 				<ul type="disc" style="margin: 10px 0 0 -20px; font-weight: normal; list-style-image: none;">
 					<li>Иммунитет к огню Огненных птиц заменен игнорированием 50<span style="font-size:0.9em;">%</span> урона заклинаний магии огня.</li></ul>
@@ -315,7 +338,32 @@
 				</ul>
 			</ul>
 			</div>
-		</div>				
+		</div>	
+		<div class="changelogsdiv">
+			<div id="cove" class="resizebutton" onclick="showdiv(this.id);"></div><span id="covespan" class="listmainrow spshowdiv" onclick="showdiv2(this.id);">Причал (с версии 1.5.0)</span>
+			<div class="hiddendiv" style="display: none;">
+			<ul style="margin: 15px 0 0 -20px; font-weight: bold; list-style-image: url(image/special/swordicon.png);">
+				<li>Бонус к приросту Матросов от Кабака уменьшен с 6 до 4.</li>
+				<li>Цены строений</li>
+				<ul type="disc" style="margin: 10px 0 0 -20px; font-weight: normal; list-style-image: none;">
+					<li>Цена Порохового склада в ртути, сере, кристаллах и драгоценных камнях увеличена с 2 до 5.</li>
+				</ul>
+				<li>Существа</li>
+				<ul type="disc" style="margin: 10px 0 0 -20px; font-weight: normal; list-style-image: none;">
+					<li>Атака Никса-Воина уменьшена с 15 до 14, защита с 20 до 17.</li>
+					<li>Скорость Пиратов/Корсаров/Морских волков изменена с 7/7/7 на 6/7/8, цена увеличена с 225/250/300 до 225/275/375 золота.</li>
+					<li>Количество выстрелов Морских волков увеличено с 10 до 12.</li>
+					<li>Скорость Жриц моря/Заклинательниц уменьшена с 7/8 до 6/7.</li>
+					<li>Урон Пушки уменьшен с 5–8 до 4–7, цена уменьшена с 5000 до 4000 золота.</li>
+				</ul>
+				<li>Герои</li>
+				<ul type="disc" style="margin: 10px 0 0 -20px; font-weight: normal; list-style-image: none;">
+					<li>В стартовых навыках Джереми логистика заменена на нападение.</li>
+					<li>В стартовых навыках Мириам нападение заменено на логистику.</li>
+				</ul>
+			</ul>
+			</div>
+		</div>
 		<div class="space"></div>
 		
 		
@@ -373,7 +421,13 @@
 		При этом добавлен механизм равномерного распределения заклинаний в свитках: на карте всегда будет примерно 
 		одинаковое количество свитков со всеми заклинаниями одного и того же уровня, причем свитки с одинаковыми 
 		заклинаниями имеют меньший шанс находиться рядом друг с другом.
-		</ol><div class="space"></div>
+		</ol>
+		<b>С версии 1.5.0:</b>
+		<ol class="innlist" start="9">
+		<li><span class="listmainrow">Охрана Опытного цеха уменьшена с 50/100/150/200 до 40/80/120/160 Железных големов.</span></li>
+		<li><span class="listmainrow">Изменена награда в <a href="objectsH3hota.html#banks6">Храме моря</a>.</span></li>
+		</ol>
+		<div class="space"></div>
 		
 		
 		<a name="interfacechanges"></a>
@@ -425,7 +479,19 @@
 		<li><span class="listmainrow">В игре и редакторе реализована поддержка новых условий победы: 
 		«Победить всех монстров» <img style="height: 20px; margin-top: 5px;" src="image/changelog/chcond1.jpg"/> и 
 		«Выжить определенное время» <img style="height: 20px;" src="image/changelog/chcond2.jpg"/> .</span></li>
-		</ol><div class="space"></div>
+		</ol>
+		<b>С версии 1.5.0:</b>
+		<ol class="innlist" start="10">
+		<li><span class="listmainrow">На ходу противника в онлайн-игре теперь можно строить предполагаемые маршруты героев на следующий ход.</span></li>
+		<li><span class="listmainrow">При удержании Alt и наведении курсора на клетку карты приключений пишется подсказка о длине пути текущего героя до этой клетки.</span></li>
+		<li><span class="listmainrow">При удержании Shift можно выбирать героя кликом по нему на карте (даже если уже выбран другой герой).</span></li>
+		<li><span class="listmainrow">Исправлены многочисленные недочеты с необновлявшимися максимальными единицами передвижения героев и ряд недочетов расчета длины пути.</span></li>
+		<li><span class="listmainrow">Диалог о покупке Книги заклинаний теперь показывается внутри экрана Гильдии магов.</span></li>
+		<li><span class="listmainrow">Для кнопки обмена в городе добавлена горячая клавиша E.</span></li>
+		<li><span class="listmainrow">Добавлена возможность увольнять героев, находящихся в городе.</span></li>
+		<li><span class="listmainrow">Добавлена возможность увольнять героев через экран города и обзора королевства.</span></li>
+		</ol>
+		<div class="space"></div>
 		
 		
 		<a name="bagschanges"></a>
@@ -463,7 +529,6 @@
 		<li><span class="listmainrow">Исправлена некорректная работа навыка Разведки и дальности обзора.</span><br>
 		Раньше при выкупе героя, получении или продвижении навыка Разведки или надевании артефакта, увеличивающего дальность обзора, 
 		новая территория открывалась не сразу, а только после шага героем по карте (теперь всегда открывается сразу).</li>
-		<li><span class="listmainrow">Исправлен баг с ИИ, перемещающим в тактической фазе двухгексовые отряды на клетку ближе к противнику, чем позволяет уровень навыка.</span></li>
 		<li><span class="listmainrow">Значок смелости больше не дает иммунитета к магии разума.</span></li>
 		<li><span class="listmainrow">Исправлен баг, из-за которого Гарпия после атаки Дендроида или Дендроида-солдата и получения 
 		ответного удара возвращалась на исходную позицию, несмотря на то, что была привязана.</span></li>
@@ -476,8 +541,32 @@
 		<li><span class="listmainrow">Исправлен баг с возможностью повторного посещения Сирен героем после боя.</span></li>
 		<li><span class="listmainrow">Исправлен баг с возможностью получить бесконечные очки передвижения за счет Шляпы адмирала.</span></li>
 		<li><span class="listmainrow">Исправлен баг с отсутствием пересчета очков передвижения при побеге героя на воде.</span></li>
-		</ol><div class="space"></div>
+		</ol>
+		<b>С версии 1.5.0:</b>
+		<ol class="innlist" start="16">
+		<li><span class="listmainrow">Исправлен критический баг с некорректными монстрами на карте, появляющимися в начале месяца существ.</span></li>
+		<li><span class="listmainrow">Исправлен баг: улучшенным существам бонусы специализации рассчитывались относительно параметров не улучшенных.</span></li>
+		<li><span class="listmainrow">Исправлен баг с не сбрасывающимся эффектом Водопоя при одновременном ходе.</span></li>
+		<li><span class="listmainrow">Исправлен баг с возможностью атаковать монстров с полетом через непроходимую границу входа объекта.</span></li>
+		</ol>
+		<div class="space"></div>
 		
+		
+		<a name="aichanges"></a>
+		<p><h4 class="changetitle">Изменения и исправления багов ИИ.</h4></p>		
+		<ol class="innlist">
+		<li><span class="listmainrow">Исправлен баг с ИИ, перемещающим в тактической фазе двухгексовые отряды на клетку ближе к противнику, чем позволяет уровень навыка.</span></li>
+		</ol>
+		<b>С версии 1.5.0:</b>
+		<ol class="innlist" start="2">
+		<li><span class="listmainrow">Добавлена возможность ИИ обмениваться заклинаниями через Грамотность между героями в городе.</span></li>
+		<li><span class="listmainrow">Добавлена возможность ИИ пользоваться Рогом бездны.</span></li>
+		<li><span class="listmainrow">Добавлена возможность ИИ колдовать Элементалями шторма, льда, энергии и магмы.</span></li>
+		<li><span class="listmainrow">Теперь при расстановке на тактике ИИ корректно учитывает число раундов, за которое он достигает отряды противника.</span></li>
+		<li><span class="listmainrow">Исправлен баг с уменьшенной областью доступных позиций на тактике у ИИ.</span></li>
+		<li><span class="listmainrow">Исправлен баг с зацикливанием ИИ при передаче армии между героями или между героем и городом.</span></li>
+		</ol>
+		<div class="space"></div>
 		
 		<a name="gskchanges"></a>
 		<p><h4 class="changetitle">Исправление багов ГСК.</h4></p>		
@@ -490,10 +579,23 @@
 		<li><span class="listmainrow">Исправлен баг с генерацией большего количества связей, чем прописано в шаблоне, 
 		при наличии нескольких связей между одной и той же парой зон.</span></li>
 		<li><span class="listmainrow">Исправлен баг ГСК с расположением части зоны в виде узкой полоски вдоль края карты.</span></li>
-		<li><span class="listmainrow">Исправлены баг ГСК с добавлением некорректных проходов между зонами из-за генерации объектов рядом с границей зон (кроме городов).</span></li>
+		<li><span class="listmainrow">Исправлен баг ГСК с добавлением некорректных проходов между зонами из-за генерации объектов рядом с границей зон (кроме городов).</span></li>
 		</ol>
-
-
+		<b>С версии 1.5.0:</b>
+		<ol class="innlist" start="8">
+		<li><span class="listmainrow">Исправлена возможность обойти охрану объекта на случайной карте из-за генерации рядом с ней другой охраны.</span></li>
+		</ol>
+		<div class="space"></div>
+		
+		
+		<a name="otherchanges"></a>
+		<p><h4 class="changetitle">Прочие изменения.</h4></p>		
+		<b>С версии 1.5.0:</b>
+		<ol class="innlist" start="1">
+		<li><span class="listmainrow">Добавлен редактор шаблонов случайных карт, позволяющий любому игроку создавать свои шаблоны, используя расширенные возможности их формата.</span></li>
+		<li><span class="listmainrow">У героев каждого города теперь есть по четыре изображения на карте и в бою: в зависимости от класса и пола героя.</span></li>
+		</ol>
+		
 		
 		
 		<p style="text-align:center; clear:left;"><a href="#top">Вернуться в начало <img src="gif/monolit.gif" title="вернуться в начало страницы"></a></p>

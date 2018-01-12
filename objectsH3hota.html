@@ -161,6 +161,8 @@
 		<a name="landshrine"></a>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/schools/landshrine.png"/></span></td>
 		<th>Святыня магической тайны</th></tr><tr><td valign="center">Обучает заклинанию 4-ого уровня.</td></tr>
+		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/schools/alcove.png"/></span></td>
+		<th><a name="alcove"></a>Беседка</th></tr><tr><td valign="center">Дает +2000 очков опыта за 1000 золота.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/schools/magecolo.png"/></span></td>
 		<th><a name="magecolo"></a>Колизей магов</th></tr><tr><td valign="center">Бесплатно дает +2 к силе магии или знаниям на выбор.</td></tr>
 		</table></div><br><br>		
@@ -179,6 +181,13 @@
 		<b>охрана</b>: 120 ходячих мертвецов<br>
 		<b>награда</b>: 2500 золота и 1 малый артефакт<br><br>
 		Посещение разграбленного погоста дает -1 к морали.</td></tr>
+		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/banks/ruin.png"/></span></td>
+		<th><a name="banks_ruin"></a>Руины</th></tr>
+		<tr><td valign="center">
+		<b>шанс</b>: 30/30/30/10%<br>
+		<b>охрана</b>: <br>10/20/30/40 скелетов, <br>2/3/5/7 духов, <br>2/3/5/7 привидений, <br>10/10/20/20 скелетов-воинов, <br>1/1/2/2 могущественных личей<br>
+		<b>награда</b>: 1000/2000/3000/4000 золота и <span class="nowrap">открытие территории в радиусе 10 клеток</span><br><br>
+		Если при посещении Руины уже разграблены, территория все равно открывается.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/banks/mansion.png"/></span></td>
 		<th><a name="banks2"></a>Особняк</th></tr>
 		<tr><td valign="center">
@@ -207,9 +216,9 @@
 		<th><a name="banks6"></a>Храм моря</th></tr>
 		<tr><td valign="center">
 		<b>шанс</b>: 30/30/30/10%<br>
-		<b>охрана</b>: <br>8/8/8/10 гидр, <br>6/7/7/9 морских змеев, <br>3/4/5/6 гидр-хаоса, <br>2/3/4/5 аспидов<br>
-		<b>награда</b>: 10000/15000/20000/30000 золота, <br>1/2/1/0 малых артефактов, <br>1/1/2/2 великих артефактов, <br>
-		1/1/0/0 артефактов-сокровищ, <br>0/0/1/2 артефактов-реликтов</td></tr>
+		<b>охрана</b>: <br>8/8/8/10 гидр, <br>6/7/7/9 морских змеев, <br>3/4/5/6 гидр-хаоса, <br>2/3/4/5 аспидов<br>		
+		<b>награда</b>: 10000/15000/20000/30000 золота, <br>2/1/0/0 артефактов-сокровищ, <br>1/1/1/0 малых артефактов, <br>
+		0/1/2/2 великих артефактов, <br>1/1/1/2 артефактов-реликтов</td></tr>
 		</table><br>	
 		<a name="cons"></a>
 		<h3>Консерватории</h3>
@@ -230,13 +239,13 @@
 		<th><a name="cons3"></a>Опытный цех</th></tr>
 		<tr><td valign="center">
 		<b>шанс</b>: 30/30/30/10%<br>
-		<b>охрана</b>: 50/100/150/200 железных големов<br>
+		<b>охрана</b>: 40/80/120/160 железных големов<br>
 		<b>награда</b>: 1/2/3/4 гиганта</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/banks/piratecavern.png"/></span></td>
 		<th><a name="cons4"></a>Пиратская пещера (искл. из ГСК)</th></tr>
 		<tr><td valign="center">
 		<b>шанс</b>: 30/30/30/10%<br>
-		<b>охрана</b>: 20/40/60/80 пиратов и 20/40/60/80 корсаров<br>
+		<b>охрана</b>:<br> 20/40/60/80 пиратов и<br> 20/40/60/80 корсаров<br>
 		<b>награда</b>: 1/2/3/4 морских змеев</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/banks/redtower.png"/></span></td>
 		<th><a name="cons5"></a>Алая башня</th></tr>
@@ -253,13 +262,15 @@
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/hillfort.png"/></span></td>
 		<th>Форт на холме (новый)</th></tr><tr><td valign="center">Позволяет улучшать существ 1-5 уровня за двойную цену.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img style="height:100px;" src="image/objects/other/cannonyard.png"/></span></td>
-		<th><a name="cannonyard"></a>Пушечный двор</th></tr><tr><td valign="center">Позволяет приобрести пушку.</td></tr>
+		<th><a name="cannonyard"></a>Пушечный двор</th></tr><tr><td valign="center">Позволяет приобрести <a href="creaturesH3hota.html#cannon">пушку</a>.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/militaryfabric.png"/></span></td>
 		<th><a name="militaryfabric"></a>Фабрика военной техники</th></tr><tr><td valign="center">Позволяет приобрести любую из трех военных машин: баллиста, палатка первой помощи и подвод с боеприпасами.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img style="height:90px;" src="image/objects/other/winery.png"/></span></td>
-		<th><a name="winery"></a>Винодельня</th></tr><tr><td valign="center">Позволяет нанять сатиров.</td></tr>
+		<th><a name="winery"></a>Винодельня</th></tr><tr><td valign="center">Позволяет нанимать <a href="creaturesH3hota.html#nc_satyr">сатиров</a>.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img style="height:90px;" src="image/objects/other/ziggurat.png"/></span></td>
-		<th><a name="ziggurat"></a>Зиккурат</th></tr><tr><td valign="center">Позволяет нанять фангармов.</td></tr>
+		<th><a name="ziggurat"></a>Зиккурат</th></tr><tr><td valign="center">Позволяет нанимать <a href="creaturesH3hota.html#nc_fang">фангармов</a>.</td></tr>
+		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img style="height:90px;" src="image/objects/other/tavern.png"/></span></td>
+		<th><a name="tavern"></a>Трактир</th></tr><tr><td valign="center">Позволяет нанимать <a href="creaturesH3hota.html#nc_leprechaun">лепреконов</a>.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/loyaltytemple.png"/></span></td>
 		<th><a name="loyaltytemple"></a>Храм лояльности</th></tr><tr><td valign="center">Устраняет падение боевого духа из-за наличия существ различных фракций 
 		в армии героя до следующего хода.</td></tr>
@@ -272,7 +283,7 @@
 		<th><a name="waterplace"></a>Водопой</th></tr><tr><td valign="center">При посещении герой теряет все оставшиеся очки передвижения, но получает +1000 
 		очков передвижения на следующий день.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/lamp.png"/></span></td>
-		<th><a name="lamp"></a>Древняя лампа</th></tr><tr><td valign="center">Позволяет 1 раз нанять 4-7 верховных джиннов.</td></tr>
+		<th><a name="lamp"></a>Древняя лампа (искл. из ГСК)</th></tr><tr><td valign="center">Позволяет 1 раз нанять 4-7 верховных джиннов.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/manaaltar.png"/></span></td>
 		<th><a name="manaaltar"></a>Алтарь маны</th></tr><tr><td valign="center">Герои могут приносить в жертву существ для получения маны вплоть до
 		учетверенного стандартного максимума.</td></tr>
@@ -280,6 +291,12 @@
 		<th><a name="youthf"></a>Фонтан молодости</th></tr><tr><td valign="center">Дает +1 к боевому духу до следующего сражения и +400 к очкам передвижения до следующего дня.</td></tr>
 		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/observer.png"/></span></td>
 		<th><a name="observer"></a>Обсерватория</th></tr><tr><td valign="center">Дает +2 к радиусу разведки до конца недели.</td></tr>
+		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/junkman.png"/></span></td>
+		<th><a name="junkman"></a>Старьевщик</th></tr><tr><td valign="center">Старьевщику можно продавать артефакты за половину номинальной цены (свитки заклинаний продавать нельзя).</td></tr>
+		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/hermitshack.png"/></span></td>
+		<th><a name="hermitshack"></a>Лачуга отшельника</th></tr><tr><td valign="center">Улучшает случайный вторичный навык героя.</td></tr>
+		<tr><td align="center" rowspan="2" class="objimage"><span style="margin:10px;"><img src="image/objects/other/mineralspring.png"/></span></td>
+		<th><a name="mineralspring"></a>Минеральный источник</th></tr><tr><td valign="center">Дает +1 к удаче до следующего сражения и +600 к очкам передвижения до конца дня.</td></tr>
 		</table>
 		</div>	
 		
