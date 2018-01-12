@@ -1,6 +1,0 @@
-User-agent: *
-
-User-agent: Yandex
-Host: h3hota-aabb.ru
-
-Sitemap: http://h3hota-aabb.ru/sitemap.xml
