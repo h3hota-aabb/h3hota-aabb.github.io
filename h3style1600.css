@@ -1,306 +1,117 @@
-/*BODY STYLE*/
-
-h1 {font-size: 50px; margin-top: 20px;}
-h2 {font-size: 32px;}
-h3 {font-size: 26px;}
-h4 {font-size: 21px;}
-
-/*TOP + MIDDLE + BOTTOM DIVS*/
-
-.topdiv {
-max-width: 1600px;
-width: 95%;
+h1{font-size:50px;margin-top:20px;}
+h2{font-size:32px;}
+h3{font-size:26px;}
+h4{font-size:21px;}
+.topdiv{max-width:1600px;width:95%;}
+.headerdiv{width:750px;height:10px;border:40px solid;border-image:url("image/magentaframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/magentaframe.png") 50 50 50 50 repeat;}
+.maindiv{max-width:1600px;width:95%;}
+.bottomdiv{max-width:1600px;width:95%;}
+.bigsearchdiv{max-width:1600px;width:95%;height:34px;margin:-5px auto 20px auto;}
+.searchdiv{width:360px;height:28px;border:2.5px #191970 solid;}
+.searchinput{width:280px;height:21px;font-size:17px;padding-left:2px;}
+@-moz-document url-prefix(){.searchinput{height:20px;}
 }
-
-.headerdiv {
-width:750px;
-height:10px;
-border: 40px solid;
-border-image: url("image/magentaframe.png") 50 50 50 50 repeat;
--webkit-border-image: url("image/magentaframe.png") 50 50 50 50 repeat;
+.clearbutton{background-size:24px 22px;width:24px;height:22px;margin:4px 0 0 -35px;}
+.clearbutton:hover{background-size:24px 22px;}
+_:-ms-lang(x), .clearbutton{background-size:22px 20px;width:22px;height:20px;margin:4.5px 0 0 -33px;}
+_:-ms-lang(x), .clearbutton:hover{background-size:22px 20px;}
+@supports (-ms-ime-align:auto){.clearbutton{background-size:22px 20px;width:22px;height:20px;margin:5.5px 0 0 -34px;}
+.clearbutton:hover{background-size:22px 20px;}
 }
-
-.maindiv {
-max-width: 1600px;
-width: 95%; 
+@-moz-document url-prefix(){.clearbutton{background-size:23px 21px;width:23px;height:21px;margin:4px 0 0 -35px;}
+.clearbutton:hover{background-size:23px 21px;}
 }
-
-.bottomdiv {
-max-width: 1600px;
-width: 95%;
+.searchbutton{width:62px;height:24px;font-size:17px;border:2px #AFEEEE outset;}
+.searchbutton:active{border:2px #AFEEEE inset;}
+@-moz-document url-prefix(){.searchbutton{font-size:17px;top:0px;}
+.searchbutton span{position:absolute;top:-2px;left:6px;top:-2px;}
 }
-
-/*SEARCH*/
-
-.bigsearchdiv {
-max-width: 1600px;
-width: 95%; 
-height: 34px;
-margin: -5px auto 20px auto;
+#searchlist{width:281px;border:1.5px #191970 solid;}
+#searchlist li{font-size:17px;}
+@-moz-document url-prefix(){#searchlist{width:283px;}
 }
-
-.searchdiv {
-width: 360px;
-height: 28px;
-border: 2.5px #191970 solid;
-}
-
-.searchinput {
-width: 280px;
-height: 21px;
-font-size: 17px;
-padding-left: 2px;
-}
-
-@-moz-document url-prefix() {
-.searchinput {height: 20px;}
-}
-
-.clearbutton {
-background-size: 24px 22px;
-width: 24px;
-height: 22px;
-margin: 4px 0 0 -35px;
-}
-.clearbutton:hover {background-size: 24px 22px;}
-
-_:-ms-lang(x), .clearbutton {background-size: 22px 20px; width: 22px; height: 20px; margin: 4.5px 0 0 -33px;}
-_:-ms-lang(x), .clearbutton:hover {background-size: 22px 20px;}
-
-@supports (-ms-ime-align:auto) {
-.clearbutton {background-size: 22px 20px; width: 22px; height: 20px; margin: 5.5px 0 0 -34px;} 
-.clearbutton:hover {background-size: 22px 20px;}
-}
-
-@-moz-document url-prefix() {
-.clearbutton {
-background-size: 23px 21px;
-width: 23px;
-height: 21px;
-margin: 4px 0 0 -35px;
-}
-.clearbutton:hover {background-size: 23px 21px;}
-}
-
-.searchbutton {
-width: 62px;
-height: 24px;
-font-size: 17px;
-border: 2px #AFEEEE outset;
-}
-.searchbutton:active {border: 2px #AFEEEE inset;}
-
-@-moz-document url-prefix() {
-.searchbutton {font-size: 17px; top: 0px;}
-.searchbutton span {position: absolute; top: -2px; left: 6px; top: -2px;}
-}
-
-#searchlist {width: 281px; border: 1.5px #191970 solid;}
-#searchlist li {font-size: 17px;}
-
-@-moz-document url-prefix() {
-#searchlist {width: 283px;}
-}
-
-/*MENU*/
-
-.menu {
-width: 125px;
-height: 382px;
-border: 60px solid;
-border-image: url("image/blueframe.png") 50 50 50 50 repeat;
--webkit-border-image: url("image/blueframe.png") 50 50 50 50 repeat;
-}
-
-.menulist a {
-width: 158px;
-min-height: 32px;
-font-size: 17px;
-padding-top: 12px;
-margin-top: 0px;
-margin-bottom: 8px;
-}
+.menu{width:125px;height:382px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+.menulist a{width:158px;min-height:32px;font-size:17px;padding-top:12px;margin-top:0px;margin-bottom:8px;}
 _:-ms-lang(x), .menulist a{width:160px;margin-bottom:8px;}
-
-.menulist li ul {
-width: 125px;
-left: -280px;
-border: 60px solid;
-border-image: url("image/blueframe.png") 50 50 50 50 repeat;
-}
-.submenu_1 {height:157px; top:-113px;}
-.submenu_2 {height:47px; top:-58px;}
-.submenu_3 {height:47px; top:-58px;}
-	
-.menulist li ul a {width: 170px;}
-
-/*FILLER*/
-
-#filler 
-{
-max-width: 1200px;
-font-size: 21px;
-margin-right: 330px;
-border: 60px solid;
-border-image: url("image/blueframe.png") 50 50 50 50 repeat;
--webkit-border-image: url("image/blueframe.png") 50 50 50 50 repeat;
-}
-[src*="monolit"] {width: 56px;}
-[src*="blackmonolith"] {width: 52px;}
-
-/*FOOTER*/
-
-#footer
-{
-height: 36px;
-border: 60px solid;
-border-image: url("image/blueframe.png") 50 50 50 50 repeat;
--webkit-border-image: url("image/blueframe.png") 50 50 50 50 repeat;
-}
-
-#footer span {
-margin: -26px 0 0 -10px;
-font-size: 17px;
-}
-#footer img {margin-top: -5px; width: 45px;}
-
-/*HELPFULL CLASSES*/
-
-.boxtag {border: 2.5px solid #000080}
-.boxtag table {border: 2.5px solid #000080}
-
-.sometables {width: 660px;}
-
-.hinttagtext {
-top:22px;
-left:-130px; 
-min-width:200px; 
-font-size:17px; 
-border:2.5px solid #000080;
-}
-
-/*MAIN PAGE*/
-
-/*NEWS*/
-
-.newsclass h2{font-size: 24px;}
-.newsdate {font-size: 17px;}
-
-.newslistimage01 {width: 280px; margin-left: 30px;}
-.newslistimage02 {width: 280px; height: 160px; margin-left: 30px;}
-
-/*NEWSSUBPAGE*/
-
-.news01 {width: 450px;}
-
-/*CHANGELOGS*/
-
-.resizebutton {width: 22px; height: 22px; background-size: 22px; margin: 3px 12px 0px 0px;}
-
-.changetitle {font-size: 24px;}
-
-.miniimg img {width: 120px; border: 2.5px #191970 solid;}
-
-/*CHANGELOGS SUBPAGE*/
-
-.chsubpage {width: 630px;}
-.chsubimgdiv {height: 260px; width: 380px;}
-
-/*COVE*/
-
-.buildings .boxtag {width:80%; max-width:900px;}
-
-.covetable th {font-size: 21px;}
-.covetable img {width: 26px;}
-.covetable .coveimgtd img {width: 180px; margin-bottom: 1px;}
-
-.covemageguild .boxtag {width: 680px;}
-.covemageguild .sometables {width: 665px;}
-
-.mageguildtable th {font-size: 21px;}
-.mageguildtable img {margin: 5px 6px 1px 7px; width: 50px; height: 50px;}
-.mageguildtable .texttd {width: 75px;}
-
-/*CREATURES*/
-
-.creatures .boxtag {max-width: 900px;}
-
-.crdiv {max-width: 780px; height: 340px;}
-.neutrals {height: 320px;}
-
-.creatureTable {font-size: 19px;}
-
-.creatureTable th {font-size: 19px;}
-.creatureTable .pricetd img {width: 26px;}
-.creatureTable .hinttagtext {left: -45px; top: 27px;}
-
-.covecrgif {width: 160px; background-size: cover;}
-.neucrgif {width: 160px;}
-.creature_img {width: 160px;}
-
-.pricetd {width:76px;}
-
-/*OBJECTS*/
-
-.objects .boxtag {max-width:760px;}
-
-.objtable {max-width:760px;}
-.objtable th {font-size: 21px;}
-
-/*ARTEFACTS*/
-
-.arts .boxtag {width:75%; max-width:760px;}
-
-.arttable {width:85%;}
-.arttable th {font-size: 21px;}
-.arttable img {width: 52px; margin-bottom: 0px;}
-
-/*HEROES*/
-
-.heroes .boxtag {width:90%; max-width:850px;}
-.heroes h4 {font-size: 24px;}
-
-.herotable th {font-size:21px; border-right: 2.5px solid #000080;}
-.herotable  .spectd {border-right: 2.5px solid #000080;  border-left: 2.5px solid #000080;}
-.herotable  .spectd  .hinttagtext{min-width: 250px;}
-.herotable  .hinttagtext{top: 18px; left: -95px;}
-.spellstd img {width: 55px; height: 55px;}
-
-.heroname {width:120px;}
-
-.herotable .heroavatd img {margin: 6px 0px 2px 0px;}
-.heroava {height:72px; width:72px;}
-
-.herotable .heroavatd {border-right: 2.5px solid #000080;}
-
-.heroimg {width:55px;}
-
-.primesktable th {font-size: 21px; padding: 0 5px 0 5px;}
-.primesktable img {width: 72px; margin: 6px 6px 2px 7px;}
-
-/*HEROES CLASS SUBPAGE*/
-
-.primesktable .heroinfoimgtd img {width: 72px;}
-
-.heroesclass .boxtag {width: 650px;}
-.heroesclass .sometables {width:655px; height:520px;}
-
-.secsktable img {width: 50px; height: 50px; margin: 5px 6px 1px 7px; }
-.secsktable .texttd {width: 75px;}
-
-/*HEROES SUBPAGE*/
-
-.herosub {width: 620px;}
-
-.heroavasubdiv {width: 72px; height: 72px; }
-.heroavasub {height: 72px; width: 72px;}
-
-.armytable td {font-size:16px;}
-.armytable img {width: 38px; height: 38px;}
-
-.heropagetable {font-size: 20px;}
-.heropagetable .heroinfoimgtd img {width: 55px; height: 55px;}
-.herospecinfotd {width: 540px;}
-.secskdiv {height: 160px;}
-.bidley {height: 80px;}
-.elmore {height: 75px;}
+.menulist li ul{width:125px;left:-280px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+.submenu_1{height:157px;top:-113px;}
+.submenu_2{height:47px;top:-58px;}
+.submenu_3{height:47px;top:-58px;}
+.menulist li ul a{width:170px;}
+#filler{max-width:1200px;font-size:21px;margin-right:330px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+[src*="monolit"]{width:56px;}
+[src*="blackmonolith"]{width:52px;}
+#footer{height:36px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+#footer span{margin:-26px 0 0 -10px;font-size:17px;}
+#footer img{margin-top:-5px;width:45px;}
+.boxtag{border:2.5px solid #000080}
+.boxtag table{border:2.5px solid #000080}
+.sometables{width:660px;}
+.hinttagtext{top:22px;left:-130px;min-width:200px;font-size:17px;border:2.5px solid #000080;}
+.newsclass h2{font-size:24px;}
+.newsdate{font-size:17px;}
+.newslistimage01{width:280px;margin-left:30px;}
+.newslistimage02{width:280px;height:160px;margin-left:30px;}
+.news01{width:450px;}
+.resizebutton{width:22px;height:22px;background-size:22px;margin:3px 12px 0px 0px;}
+.changetitle{font-size:24px;}
+.miniimg img{width:120px;border:2.5px #191970 solid;}
+.chsubpage{width:630px;}
+.chsubimgdiv{height:260px;width:380px;}
+.buildings .boxtag{width:80%;max-width:900px;}
+.covetable th{font-size:21px;}
+.covetable img{width:26px;}
+.covetable .coveimgtd img{width:180px;margin-bottom:1px;}
+.covemageguild .boxtag{width:680px;}
+.covemageguild .sometables{width:665px;}
+.mageguildtable th{font-size:21px;}
+.mageguildtable img{margin:5px 6px 1px 7px;width:50px;height:50px;}
+.mageguildtable .texttd{width:75px;}
+.creatures .boxtag{max-width:900px;}
+.crdiv{max-width:780px;height:340px;}
+.neutrals{height:320px;}
+.creatureTable{font-size:19px;}
+.creatureTable th{font-size:19px;}
+.creatureTable .pricetd img{width:26px;}
+.creatureTable .hinttagtext{left:-45px;top:27px;}
+.covecrgif{width:160px;background-size:cover;}
+.neucrgif{width:160px;}
+.creature_img{width:160px;}
+.pricetd{width:76px;}
+.objects .boxtag{max-width:760px;}
+.objtable{max-width:760px;}
+.objtable th{font-size:21px;}
+.arts .boxtag{width:75%;max-width:760px;}
+.arttable{width:85%;}
+.arttable th{font-size:21px;}
+.arttable img{width:52px;margin-bottom:0px;}
+.heroes .boxtag{width:90%;max-width:850px;}
+.heroes h4{font-size:24px;}
+.herotable th{font-size:21px;border-right:2.5px solid #000080;}
+.herotable .spectd{border-right:2.5px solid #000080;border-left:2.5px solid #000080;}
+.herotable .spectd .hinttagtext{min-width:250px;}
+.herotable .hinttagtext{top:18px;left:-95px;}
+.spellstd img{width:55px;height:55px;}
+.heroname{width:120px;}
+.herotable .heroavatd img{margin:6px 0px 2px 0px;}
+.heroava{height:72px;width:72px;}
+.herotable .heroavatd{border-right:2.5px solid #000080;}
+.heroimg{width:55px;}
+.primesktable th{font-size:21px;padding:0 5px 0 5px;}
+.primesktable img{width:72px;margin:6px 6px 2px 7px;}
+.primesktable .heroinfoimgtd img{width:72px;}
+.heroesclass .boxtag{width:650px;}
+.heroesclass .sometables{width:655px;height:520px;}
+.secsktable img{width:50px;height:50px;margin:5px 6px 1px 7px;}
+.secsktable .texttd{width:75px;}
+.herosub{width:620px;}
+.heroavasubdiv{width:72px;height:72px;}
+.heroavasub{height:72px;width:72px;}
+.armytable td{font-size:16px;}
+.armytable img{width:38px;height:38px;}
+.heropagetable{font-size:20px;}
+.heropagetable .heroinfoimgtd img{width:55px;height:55px;}
+.herospecinfotd{width:540px;}
+.secskdiv{height:160px;}
+.bidley{height:80px;}
+.elmore{height:75px;}
