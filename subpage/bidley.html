@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Бидли - Heroes 3 HotA </title>
+	<meta http-equiv="Content Type" content="text/html" charset="UTF-8" />
+	<meta name="description" content="Heroes 3 HotA. Бидли - описание характеристик и умений героев." />
+	<meta name="keywords" content="Heroes, III, Horn, of, the, Abyss, HotA, Cove, герои, 3, Рог, Бездны, Причал" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../image/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon-16x16.png">
+	
+	<link rel="stylesheet" type="text/css" href="../h3style.css"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="../h3style1600.css"/>
+	<script type="text/javascript" src="subh3search.js" charset="utf-8"></script>
+</head>
+
+
+<body>
+<img src="../image/hotabg.jpg" id="backgroung"></img> <a name="top"></a>
+
+
+	<div class="topdiv"><img src="../gif/header_gif2.gif" id="header_gif"></img></div>
+	
+	<div class="headerdiv">
+	<h1>HEROES 3: Horn of the Abyss</h1> 
+	</div>
+	
+	<div class="bigsearchdiv">
+	<div class="searchdiv">		
+		<form name="searchform" onsubmit="return false;"> 		
+		<input type="text" name="searchinput" class="searchinput" value="" placeholder="найти.." size="30" maxlength="30" autocomplete="off"
+		onfocus="this.placeholder=''; incorrectinput(); strcmp();"  onblur="deleteList();" oninput="strcmp();" onkeydown="inputevent(event);">
+		<a class="clearbutton" onclick="clearinput();"></a>
+		</form>
+		<button class="searchbutton" onclick="findindex();"><span>поиск</span></button> 	
+
+		<ul id="searchlist" onmouseover="onmouseoverfunc(event);"></ul>		
+	</div></div>
+	 
+	<div class="maindiv">
+	<div  class="menu">
+	<ul  class="menulist">
+	<li class="menuelement" style="margin-top:-65px;"><a href="../index.html">Главная</a></li>
+	<li class="menuelement"><a href="../newsH3hota.html">Новости</a></li>
+	<li class="menuelement"><a href="../changelogsH3hota.html">Изменения</a></li>
+	<li class="menuelement"><a href="../coveH3hota.html">Причал</a>
+		<ul class="submenu_1">
+		<li style="margin-top:-35px;"><a href="../covebuildingsH3hota.html">Строения</a></li>
+		<li><a href="../creaturesH3hota.html#covecreatures">Существа Причала</a></li>
+		<li><a href="../heroesH3hota.html#coveheroes">Герои Причала</a></li>
+		<li><a href="../covemageguild.html">Гильдия магов</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="../creaturesH3hota.html">Существа</a>
+		<ul class="submenu_2">
+		<li style="margin-top:-35px;"><a href="../creaturesH3hota.html#covecreatures">Существа Причала</a></li>
+		<li><a href="../creaturesH3hota.html#neutralcreatures">Нейтральные</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="../heroesH3hota.html">Герои</a>
+		<ul class="submenu_3">
+		<li style="margin-top:-35px;"><a href="../heroesH3hota.html#coveheroes">Герои Причала</a></li>
+		<li><a href="../heroesH3hota.html#otherheroes">Прочие</a></li>
+		</ul>
+	</li>
+	<li class="menuelement"><a href="../objectsH3hota.html">Объекты</a></li>
+	<li class="menuelement"><a href="../artefactsH3hota.html">Артефакты</a></li>
+	</ul>
+	</div>
+	
+	
+	<div id="filler">
+		<div  class="boxtag herosub">
+		<h2 style="margin-top:5px;">Бидли</h2>
+		
+		<div class="heroavasubdiv"><img src="..\image\heroes\bidley.jpg" class="heroava"/></div>
+		<p>Бидли — один из самых удачливых пиратов, орудующих у берегов Эрафии. Он всегда 
+		готов бросить вызов любым трудностям, и из любой авантюры выбирается целым. 
+		Кажется, в любом уголке света кто-нибудь желает ему смерти, но Бидли всегда выходит 
+		сухим из воды. Он сам превосходный воин, виртуозно владеющий саблей и мушкетом, и 
+		свою гвардию тренирует лично.</p>
+		
+		<span><b>Класс героя:</b></span> <a href="captain.html">капитан.</a></br></br>
+		
+		<span><b>Дополнительно:</b></span> доступен только в кампании.</br></br>
+		
+		<span><b>Стартовая армия:</b></span></br></br>
+		<table class="armytable" style="float:left;">
+		<tr><td><img src="..\image\minicreatures\miniseawolf.png" title="Морские волки"/></td>
+		<td><img src="..\image\minicreatures\minicorsair.png" title="Корсары"/></td>
+		<td><img src="..\image\minicreatures\miniseawolf.png" title="Морские волки"/></td>
+		<tr align="center"><td><b>1-3<b></td><td><b>4-7<b></td><td><b>1-3<b></td></tr>
+		</table></br></br></br><div class="space" style="height:10px;"></div>		
+				
+		<b>Специализация:</b></br></br>
+		<table class="heropagetable">
+		<tr><td class="heroinfoimgtd"><img src="..\image\specialization\Sseawolves.png"/></td><td class="herospecinfotd">Может улучшать Пиратов и Корсаров до Морских волков</td>
+		</table></br></br></br><div class="space" style="height:15px;"></div>
+		
+		<b>Вторичные навыки:</b></br></br>
+		<div class="secskdiv bidley">
+		<table class="heropagetable" style="clear:both;">
+		<tr><td class="heroinfoimgtd"><img src="..\image\secondary skills\offence.png"/></td><td>Нападение на продвинутом уровне</td>
+		</table></div>
+		
+		<div class="space" style="height:15px;"></div>		
+		<b>Стартовое заклинание:</b> нет.<div class="space" style="height:5px;"></div>
+				
+		</div>
+		
+		<p style="text-align:center; clear:left;"><a href="#" onclick="history.back();">Вернуться назад <img src="../gif/blackmonolith.gif" title="вернуться назад"></a></p>
+				
+	</div>
+	</div>
+
+
+	<div class="bottomdiv">
+	<div id="footer">
+		<span style="top:-8px;"><a href="https://vk.com/h3hota" target="_blank">Heroes 3 HotA Официальное сообщество</a></br>
+		<a href="http://forum.df2.ru/index.php?showforum=90" target="_blank">DF2 Официальный форум HotA</a></br></br>
+		Автор: aabb</br>
+		Моя почта: bukalin_ao@mail.ru</br>
+		</span>
+		<img src="../gif/lamp.gif"></img>
+	</div>
+	</div>
+
+
+</body>
+</html>
