@@ -88,7 +88,7 @@
 		или на <a href="http://forum.df2.ru/index.php?showtopic=27888" target="_blank">форуме</a>.</p>
 		
 		<div class="mainpageinfo">
-		<span style="font-size: 1.1em; font-weight: bold">Изменения (HotA 1.5.1)</span>
+		<span style="font-size: 1.1em; font-weight: bold">Изменения (HotA 1.5.3)</span>
 		<ul style="margin: 15px 10px 10px -20px; list-style-image: url(image/special/swordicon.png);">
 		<li style="margin-bottom: 15px;"><a href="#commonchanges">Общие изменения игрового процесса.</a></li>
 		<li style="margin-bottom: 15px;"><a href="#townchanges">Изменения городов, героев и существ.</a></li>
@@ -155,6 +155,14 @@
 		<b>С версии 1.5.1:</b><br>
 		<ol class="innlist" start="22">
 		<li><span class="listmainrow">Монстры нового месяца теперь не появляются ближе, чем на расстоянии двух клеток, к уже стоящим на карте монстрам.</span></li>
+		</ol>
+		<b>С версии 1.5.2:</b><br>
+		<ol class="innlist" start="23">
+		<li><span class="listmainrow">Изменена механика работы навыка Сопротивление.</span><br>
+		Вторичный навык Сопротивление и артефакты Колье нейтрализации, Одеяние равновесия, Сапоги противодействия и Кулон отражения теперь уменьшают силу магии героя противника в бою на определённый процент вместо увеличения шанса отразить заклинание.</li>
+		<li><span class="listmainrow">Показатели навыка Сопротивление увеличены с 5/10/20% до 10/20/30%.</span></li>
+		<li><span class="listmainrow">Урон заклинания Армагеддон уменьшен с 50*SP + 30/30/60/120 до 40*SP + 30/30/60/120.</span></li>
+		<li><span class="listmainrow">Эффект заклинаний Защиты от воздуха, Защиты от огня, Защиты от воды и Защиты от земли увеличен с 30/30/50/50% до 50/50/75/75%.</span></li>
 		</ol>
 		<div class="space"></div>
 		
@@ -431,6 +439,10 @@
 		<li><span class="listmainrow">Охрана Опытного цеха уменьшена с 50/100/150/200 до 40/80/120/160 Железных големов.</span></li>
 		<li><span class="listmainrow">Изменена награда в <a href="objectsH3hota.html#banks6">Храме моря</a>.</span></li>
 		</ol>
+		<b>С версии 1.5.2:</b>
+		<ol class="innlist" start="11">
+		<li><span class="listmainrow">Охрана <a href="objectsH3hota.html#banks_ruin">Руин</a> увеличена, радиус обзора увеличен с 10 до 12.</span></li>
+		</ol>
 		<div class="space"></div>
 		
 		
@@ -495,6 +507,14 @@
 		<li><span class="listmainrow">Добавлена возможность увольнять героев, находящихся в городе.</span></li>
 		<li><span class="listmainrow">Добавлена возможность увольнять героев через экран города и обзора королевства.</span></li>
 		</ol>
+		<b>С версии 1.5.2:</b>
+		<ol class="innlist" start="18">
+		<li><span class="listmainrow">Добавлена подсказка о стоимости улучшения существ (по клику правой кнопкой мыши или при наведении на кнопку апгрейда).</span></li>
+		<a><div class="miniimg"><img style="float: left; clear: right; margin-right: 30px; margin-bottom: 20px;" id="imgUpg1" src="image/changelog/upgPrice1(298x322).jpg" title="Увеличить изображение" onclick="openImg(this.id, this.src);"/></div></a>
+		<a><div class="miniimg"><img id="imgUpg2" src="image/changelog/upgPrice2(252x127).jpg" title="Увеличить изображение" onclick="openImg(this.id, this.src);"/></div></a></li>
+		<li style="clear: both;"><span class="listmainrow">Изменение первичных навыков героя на время боя теперь отображается в окошке его информации в бою (например, уменьшение Силы магии засчет навыка Сопротивление).</span></li>
+		<a><div class="miniimg"><img id="imgResistance" src="image/changelog/resistance(77x200).jpg" style="width: 40px; height: 104px;" title="Увеличить изображение" onclick="openImg(this.id, this.src);"/></div></a></li>
+		</ol>
 		<div class="space"></div>
 		
 		
@@ -550,8 +570,13 @@
 		<ol class="innlist" start="16">
 		<li><span class="listmainrow">Исправлен критический баг с некорректными монстрами на карте, появляющимися в начале месяца существ.</span></li>
 		<li><span class="listmainrow">Исправлен баг: улучшенным существам бонусы специализации рассчитывались относительно параметров не улучшенных.</span></li>
-		<li><span class="listmainrow">Исправлен баг с не сбрасывающимся эффектом Водопоя при одновременном ходе.</span></li>
+		<li><span class="listmainrow">Исправлен баг с несбрасывающимся эффектом Водопоя при одновременном ходе.</span></li>
 		<li><span class="listmainrow">Исправлен баг с возможностью атаковать монстров с полетом через непроходимую границу входа объекта.</span></li>
+		</ol>
+		<b>С версии 1.5.2:</b>
+		<ol class="innlist" start="20">
+		<li><span class="listmainrow">Исправлен баг: герои Сопряжения не приходили в таверну игрокам за другие города.</span></li>
+		<li><span class="listmainrow">Навык Обучаемость теперь работает в Беседке.</span></li>
 		</ol>
 		<div class="space"></div>
 		
@@ -569,6 +594,10 @@
 		<li><span class="listmainrow">Теперь при расстановке на тактике ИИ корректно учитывает число раундов, за которое он достигает отряды противника.</span></li>
 		<li><span class="listmainrow">Исправлен баг с уменьшенной областью доступных позиций на тактике у ИИ.</span></li>
 		<li><span class="listmainrow">Исправлен баг с зацикливанием ИИ при передаче армии между героями или между героем и городом.</span></li>
+		</ol>
+		<b>С версии 1.5.2:</b>
+		<ol class="innlist" start="8">
+		<li><span class="listmainrow">Исправлено зависание ИИ при посадке в лодку.</span></li>
 		</ol>
 		<div class="space"></div>
 		
@@ -588,6 +617,10 @@
 		<b>С версии 1.5.0:</b>
 		<ol class="innlist" start="8">
 		<li><span class="listmainrow">Исправлена возможность обойти охрану объекта на случайной карте из-за генерации рядом с ней другой охраны.</span></li>
+		</ol>
+		<b>С версии 1.5.2:</b>
+		<ol class="innlist" start="9">
+		<li><span class="listmainrow">Исправлена возможность багнутого прохода на границе трёх зон.</span></li>
 		</ol>
 		<div class="space"></div>
 		
