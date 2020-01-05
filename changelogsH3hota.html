@@ -88,21 +88,21 @@
 		или на <a href="http://forum.df2.ru/index.php?showtopic=27888" target="_blank">форуме</a>.</p>
 		
 		<div class="mainpageinfo">
-		<span style="font-size: 1.1em; font-weight: bold">Изменения (HotA 1.5.3)</span>
+		<span style="font-size: 1.1em; font-weight: bold">Изменения (HotA 1.6.0)</span>
 		<ul style="margin: 15px 10px 10px -20px; list-style-image: url(image/special/swordicon.png);">
-		<li style="margin-bottom: 15px;"><a href="#commonchanges">Общие изменения игрового процесса.</a></li>
-		<li style="margin-bottom: 15px;"><a href="#townchanges">Изменения городов, героев и существ.</a></li>
-		<li style="margin-bottom: 15px;"><a href="#objchanges">Изменения стандартных объектов.</a></li>
-		<li style="margin-bottom: 15px;"><a href="#interfacechanges">Изменения интерфейса.</a></li>
-		<li style="margin-bottom: 15px;"><a href="#bagschanges">Исправление багов игрового процесса.</a></li>
-		<li style="margin-bottom: 15px;"><a href="#aichanges">Изменения и исправление багов ИИ.</a></li>
-		<li style="margin-bottom: 15px;"><a href="#gskchanges">Исправление багов ГСК (генератор случайных карт).</a></li>
-		<li style="margin-bottom: 15px;"><a href="#otherchanges">Прочие изменения.</a></li>
+		<li style="margin-bottom: 15px;"><a href="#commonchanges">Общие изменения игрового процесса</a></li>
+		<li style="margin-bottom: 15px;"><a href="#townchanges">Изменения городов, героев и существ</a></li>
+		<li style="margin-bottom: 15px;"><a href="#objchanges">Изменения стандартных объектов</a></li>
+		<li style="margin-bottom: 15px;"><a href="#interfacechanges">Изменения интерфейса</a></li>
+		<li style="margin-bottom: 15px;"><a href="#bagschanges">Исправление багов игрового процесса</a></li>
+		<li style="margin-bottom: 15px;"><a href="#aichanges">Изменения и исправление багов ИИ</a></li>
+		<li style="margin-bottom: 15px;"><a href="#gskchanges">Исправление багов ГСК (генератор случайных карт)</a></li>
+		<li style="margin-bottom: 15px;"><a href="#otherchanges">Прочие изменения</a></li>
 		</ul></div>
 			
 				
 		<a name="commonchanges"></a>
-		<p><h4 class="changetitle">Общие изменения игрового процесса.</h4></p>		
+		<p><h4 class="changetitle">Общие изменения игрового процесса</h4></p>		
 		<ol class="innlist">
 		<li><span class="listmainrow">В городах игрока с фортом по умолчанию всегда построено жилище 2 уровня.</span></li>
 		<li><span class="listmainrow">Изменена механика заклинаний Полет, Хождение по воде и Дверь измерений.</span><br>
@@ -156,19 +156,53 @@
 		<ol class="innlist" start="22">
 		<li><span class="listmainrow">Монстры нового месяца теперь не появляются ближе, чем на расстоянии двух клеток, к уже стоящим на карте монстрам.</span></li>
 		</ol>
+		<a name="newresistance"></a>
 		<b>С версии 1.5.2:</b><br>
 		<ol class="innlist" start="23">
 		<li><span class="listmainrow">Изменена механика работы навыка Сопротивление.</span><br>
-		Вторичный навык Сопротивление и артефакты Колье нейтрализации, Одеяние равновесия, Сапоги противодействия и Кулон отражения теперь уменьшают силу магии героя противника в бою на определённый процент вместо увеличения шанса отразить заклинание.</li>
+		Вторичный навык Сопротивление и артефакты Колье нейтрализации, Одеяние равновесия, Сапоги противодействия и <a href="artefactsH3hota.html#art44">Кулон отражения</a> теперь уменьшают силу магии героя противника в бою на определённый процент вместо увеличения шанса отразить заклинание.</li>
 		<li><span class="listmainrow">Показатели навыка Сопротивление увеличены с 5/10/20% до 10/20/30%.</span></li>
 		<li><span class="listmainrow">Урон заклинания Армагеддон уменьшен с 50*SP + 30/30/60/120 до 40*SP + 30/30/60/120.</span></li>
 		<li><span class="listmainrow">Эффект заклинаний Защиты от воздуха, Защиты от огня, Защиты от воды и Защиты от земли увеличен с 30/30/50/50% до 50/50/75/75%.</span></li>
+		</ol>
+		<b>С версии 1.5.4:</b><br>
+		<ol class="innlist" start="27">
+		<li><span class="listmainrow">Если в бою умерли оба героя, то они больше не приходят в таверну (кроме случаев, когда других доступных героев вообще не осталось).</span></li>
+		</ol>
+		<b>С версии 1.6.0:</b><br>
+		<ol class="innlist" start="28">
+		<li><span class="listmainrow"><a name="wasteland"></a>Добавлен новый тип ландшафта — пустоши (штраф на перемещение 125%). 
+		Также добавлены новые <a href="objectsH3hota.html#conductor">объекты</a>, которые генерируются на пустошах.</span>
+		<a><div class="miniimg"><img id="imgwasteland" src="image/changelog/wasteland(604x404).jpg" title="Увеличить изображение" onclick="openImg(this.id, this.src);"/></div></a></li>
+		<li><span class="listmainrow">На стандартных шаблонах случайных карт для онлайн-игры установлено ограничение на длительность боя - 100 раундов, 
+		после чего атакующий должен бежать, капитулировать или завершить битву быстро (кол-во раундов настраивается в редакторе карт и шаблонов).</span></li>
+		<li><span class="listmainrow">Навык Дипломатии доступен на стандартных шаблонах</span><br> 
+		Теперь на стандартных шаблонах случайных карт монстры присоединяются только за деньги и присоединяется только половина 
+		отряда за цену всего отряда (кол-во настраивается в редакторе карт и шаблонов).</li>
+		<a name="1_6_0_balancechanges"></a>
+		<li><span class="listmainrow">Скорость любых существ под продвинутой и экспертной Медлительностью увеличена ровно на 1.</span></li>
+		<li><span class="listmainrow">Проценты навыка логистики уменьшены до 5/10/20%, эффект Перчаток Всадника - до 200, Сапогов-Скороходов - до 400.</span></li>
+		<li><span class="listmainrow">Эффект навыка Интеллект уменьшен с 25/50/100% до 20/35/50%.</span></li>
+		<li><span class="listmainrow">Эффект навыка Мистицизм увеличен с 2/3/4 до 5/10/15.</span></li>
+		<li><span class="listmainrow">Эффект навыка Имущество увеличен с 125/250/500 до 250/500/1000.</span></li>
+		<li><span class="listmainrow">Специализация по Разведке теперь даёт +1 к обзору за каждые 6 уровней героя.</span></li>
+		<li><span class="listmainrow">Отменены <a href="#newresistance">изменения</a> навыка Сопротивления версии 1.5.2</span><br>
+		Навык Сопротивление и соответствующие артефакты Колье Нейтрализации, Одеяние Равновесия и Сапоги Противодействия 
+		больше не понижают силу магии противника, а работают как прежде (до версии 1.5.2).
+		Навык Сопротивления, артефакты, а также герой Торгрим (специалист по Сопротивлению) запрещены по умолчанию.</li>
+		<li><span class="listmainrow"><a name="interference"></a>Добавлен новый навык Помехи</span><br>
+		Уменьшает силу магии героя противника на 10/20/30% на время боя (аналогично навыку <a href="#newresistance">Сопротивление</a> версии 1.5.2).
+		Добавлены артефакты, понижающие силу магии: <a href="artefactsH3hota.html#art12">Амулет Затмения</a> (10%), 
+		<a href="artefactsH3hota.html#art13">Печать Заката</a> (10%) и <a href="artefactsH3hota.html#art46">Латы Гаснущих Светил</a> (25%). 
+		Всем героям стартовый навык Сопротивление заменен на Помехи (исключение - Торгрим).
+		<br><img style="margin-top: 5px" src="image/secondary skills/interference.png" title="Помехи"/></li>
+		<li><span class="listmainrow">Добавлено новое существо <a href="creaturesH3hota.html#nc_steelgolem">Стальной Голем</a>.</span></li>
 		</ol>
 		<div class="space"></div>
 		
 		
 		<a name="townchanges"></a>
-		<p><h4 class="changetitle">Изменения городов, героев и существ.</h4></p>			
+		<p><h4 class="changetitle">Изменения городов, героев и существ</h4></p>			
 		<div class="changelogsdiv">
 			<div id="castle" class="resizebutton" onclick="showdiv(this.id);"></div><span id="castlespan" class="listmainrow spshowdiv" onclick="showdiv2(this.id);">Замок</span>
 			<div class="hiddendiv" style="display: none;">
@@ -190,7 +224,8 @@
 					<li>Количество Эльфов уменьшено с 3-6 до 2-4.</li></ul>
 				<li style="margin:0;">Герои</li>
 				<ul type="disc" style="margin: 10px 0 0 -20px; font-weight: normal; list-style-image: none;">
-					<li>На случайных картах без воды стартовое заклинание героя Джем Вызвать корабль было изменено на Благословение.</li></ul>
+					<li>На случайных картах без воды стартовое заклинание героя Джем Вызвать корабль было изменено на Благословение.</li>
+					<li>Торгрим запрещен по умолчанию. Вместо него доступен новый герой <a href="subpage/jiselle.html">Жизель</a> <b>(с версии 1.6.0)</b>.</li></ul>
 			</ul>
 			</div>
 		</div>		
@@ -380,7 +415,7 @@
 		
 		
 		<a name="objchanges"></a>
-		<p><h4 class="changetitle">Изменения стандартных объектов.</h4></p>		
+		<p><h4 class="changetitle">Изменения стандартных объектов</h4></p>		
 		<ol class="innlist">
 		<li><span class="listmainrow">Карты Картографов теперь стоят 10000 вместо бывших 1000.</span></li>
 		<li><span class="listmainrow">Хижины провидцев не могут требовать артефактов, являющихся частями сборных артефактов.</span></li>
@@ -436,18 +471,25 @@
 		</ol>
 		<b>С версии 1.5.0:</b>
 		<ol class="innlist" start="9">
-		<li><span class="listmainrow">Охрана Опытного цеха уменьшена с 50/100/150/200 до 40/80/120/160 Железных големов.</span></li>
+		<li><span class="listmainrow">Охрана <a href="objectsH3hota.html#cons3">Опытного цеха</a> уменьшена с 50/100/150/200 до 40/80/120/160 Железных големов.</span></li>
 		<li><span class="listmainrow">Изменена награда в <a href="objectsH3hota.html#banks6">Храме моря</a>.</span></li>
 		</ol>
 		<b>С версии 1.5.2:</b>
 		<ol class="innlist" start="11">
 		<li><span class="listmainrow">Охрана <a href="objectsH3hota.html#banks_ruin">Руин</a> увеличена, радиус обзора увеличен с 10 до 12.</span></li>
 		</ol>
+		<b>С версии 1.6.0:</b>
+		<ol class="innlist" start="12">
+		<li><span class="listmainrow">Изменена охрана <a href="objectsH3hota.html#cons3">Опытного Цеха</a> c 40/80/120/160 Железных Големов на 25/50/75/100 
+		<a href="creaturesH3hota.html#nc_steelgolem">Стальных Големов</a>.</span></li>
+		<li><span class="listmainrow">Изменена охрана <a href="objectsH3hota.html#banks1">Погоста</a> c 120 Живых Мертвецов на 90 Зомби.</span></li>
+		<li><span class="listmainrow"><a href="objectsH3hota.html#lamp">Древние Лампы</a> на случайных картах теперь могут генерироваться только на песке и снегу.</span></li>
+		</ol>
 		<div class="space"></div>
 		
 		
 		<a name="interfacechanges"></a>
-		<p><h4 class="changetitle">Изменения интерфейса.</h4></p>		
+		<p><h4 class="changetitle">Изменения интерфейса</h4></p>		
 		<ol class="innlist">
 		<li><span class="listmainrow">Изменения интерфейса боя:</span></li>				
 		<div class="changelogsdiv">
@@ -503,23 +545,27 @@
 		<li><span class="listmainrow">При удержании Shift можно выбирать героя кликом по нему на карте (даже если уже выбран другой герой).</span></li>
 		<li><span class="listmainrow">Исправлены многочисленные недочеты с необновлявшимися максимальными единицами передвижения героев и ряд недочетов расчета длины пути.</span></li>
 		<li><span class="listmainrow">Диалог о покупке Книги заклинаний теперь показывается внутри экрана Гильдии магов.</span></li>
-		<li><span class="listmainrow">Для кнопки обмена в городе добавлена горячая клавиша E.</span></li>
 		<li><span class="listmainrow">Добавлена возможность увольнять героев, находящихся в городе.</span></li>
-		<li><span class="listmainrow">Добавлена возможность увольнять героев через экран города и обзора королевства.</span></li>
+		<li><span class="listmainrow">Добавлена возможность увольнять героев через экран города и обзора королевства (особенно важно для Темницы, чтобы случайно не использовать Вихрь Маны второстепенным героем).</span></li>
 		</ol>
 		<b>С версии 1.5.2:</b>
-		<ol class="innlist" start="18">
+		<ol class="innlist" start="17">
 		<li><span class="listmainrow">Добавлена подсказка о стоимости улучшения существ (по клику правой кнопкой мыши или при наведении на кнопку апгрейда).</span></li>
 		<a><div class="miniimg"><img style="float: left; clear: right; margin-right: 30px; margin-bottom: 20px;" id="imgUpg1" src="image/changelog/upgPrice1(298x322).jpg" title="Увеличить изображение" onclick="openImg(this.id, this.src);"/></div></a>
 		<a><div class="miniimg"><img id="imgUpg2" src="image/changelog/upgPrice2(252x127).jpg" title="Увеличить изображение" onclick="openImg(this.id, this.src);"/></div></a></li>
-		<li style="clear: both;"><span class="listmainrow">Изменение первичных навыков героя на время боя теперь отображается в окошке его информации в бою (например, уменьшение Силы магии засчет навыка Сопротивление).</span></li>
+		<li style="clear: both;"><span class="listmainrow">Изменение первичных навыков героя на время боя теперь отображается в окошке его информации в бою (например, уменьшение Силы магии засчет навыка Помехи).</span></li>
 		<a><div class="miniimg"><img id="imgResistance" src="image/changelog/resistance(77x200).jpg" style="width: 40px;" title="Увеличить изображение" onclick="openImg(this.id, this.src);"/></div></a></li>
+		</ol>
+		<b>С версии 1.5.4:</b>
+		<ol class="innlist" start="19">
+		<li><span class="listmainrow">Добавлена подсказка при наведении на цель об эффекте ударных заклинаний, заклинаний лечения и воскрешения, 
+		об эффекте лечения Палаткой Первой Помощи, а также о числе оставшихся заклинаний у колдующих существ.</span></li>
 		</ol>
 		<div class="space"></div>
 		
 		
 		<a name="bagschanges"></a>
-		<p><h4 class="changetitle">Исправление багов игрового процесса.</h4></p>		
+		<p><h4 class="changetitle">Исправление багов игрового процесса</h4></p>		
 		<ol class="innlist">
 		<a name="bags1"></a>
 		<li><span class="listmainrow">Исправлены баги с заклинанием Полет.</span></li>
@@ -578,11 +624,17 @@
 		<li><span class="listmainrow">Исправлен баг: герои Сопряжения не приходили в таверну игрокам за другие города.</span></li>
 		<li><span class="listmainrow">Навык Обучаемость теперь работает в Беседке.</span></li>
 		</ol>
+		<b>С версии 1.5.4:</b>
+		<ol class="innlist" start="22">
+		<li><span class="listmainrow">Исправлена возможность посещения Беседки несколько раз одним героем.</span></li>
+		<li><span class="listmainrow">Исправлен баг: при наличии Лука Снайпера стрелковый отряд в режиме рукопашной атаки подходил вплотную к противнику и стрелял, вместо обычной рукопашной атаки.</span></li>
+		<li><span class="listmainrow">Исправлен баг: Сатиры и Лепреконы могли колдовать неограниченное число раз за бой.</span></li>
+		</ol>
 		<div class="space"></div>
 		
 		
 		<a name="aichanges"></a>
-		<p><h4 class="changetitle">Изменения и исправления багов ИИ.</h4></p>		
+		<p><h4 class="changetitle">Изменения и исправления багов ИИ</h4></p>		
 		<ol class="innlist">
 		<li><span class="listmainrow">Исправлен баг с ИИ, перемещающим в тактической фазе двухгексовые отряды на клетку ближе к противнику, чем позволяет уровень навыка.</span></li>
 		</ol>
@@ -602,9 +654,8 @@
 		<div class="space"></div>
 		
 		<a name="gskchanges"></a>
-		<p><h4 class="changetitle">Исправление багов ГСК.</h4></p>		
+		<p><h4 class="changetitle">Исправление багов ГСК</h4></p>		
 		<ol class="innlist">
-		<li><span class="listmainrow">Улучшено соответствие соотношений размеров зон ГСК с указанными в шаблоне размерами.</span></li>
 		<li><span class="listmainrow">Исправлен баг со сдвинутой охраной объектов в ГСК (иногда можно было посещать объекты без боя с охраной).</span></li>
 		<li><span class="listmainrow">Дороги на случайных картах теперь не проходят через багнутые проходы и не блокируются тюрьмами.</span></li>
 		<li><span class="listmainrow">Города в пределах одной зоны теперь всегда связаны дорожной сетью внутри этой зоны, 
@@ -615,22 +666,49 @@
 		<li><span class="listmainrow">Исправлен баг ГСК с добавлением некорректных проходов между зонами из-за генерации объектов рядом с границей зон (кроме городов).</span></li>
 		</ol>
 		<b>С версии 1.5.0:</b>
-		<ol class="innlist" start="8">
+		<ol class="innlist" start="7">
 		<li><span class="listmainrow">Исправлена возможность обойти охрану объекта на случайной карте из-за генерации рядом с ней другой охраны.</span></li>
 		</ol>
 		<b>С версии 1.5.2:</b>
-		<ol class="innlist" start="9">
+		<ol class="innlist" start="8">
 		<li><span class="listmainrow">Исправлена возможность багнутого прохода на границе трёх зон.</span></li>
 		</ol>
 		<div class="space"></div>
 		
 		
 		<a name="otherchanges"></a>
-		<p><h4 class="changetitle">Прочие изменения.</h4></p>		
+		<p><h4 class="changetitle">Прочие изменения</h4></p>		
 		<b>С версии 1.5.0:</b>
 		<ol class="innlist" start="1">
 		<li><span class="listmainrow">Добавлен редактор шаблонов случайных карт, позволяющий любому игроку создавать свои шаблоны, используя расширенные возможности их формата.</span></li>
 		<li><span class="listmainrow">У героев каждого города теперь есть по четыре изображения на карте и в бою: в зависимости от класса и пола героя.</span></li>
+		</ol>
+		<b>С версии 1.6.0:</b>
+		<ol class="innlist" start="3">
+		<a name="1_6_0mapeditor"></a>
+		<li><span class="listmainrow">Расширен функционал для редактора карт.</span></li>
+		<div class="changelogsdiv">
+			<div id="id6" class="resizebutton" onclick="showdiv(this.id);"></div><span id="id8span" class="listmainrow spshowdiv" onclick="showdiv2(this.id);">Показать</span>
+			<div class="hiddendiv" style="display: none;">
+			<ul type="disc" style="margin: 10px 0 0 -20px;">
+				<li>Добавлен режим карты Арена, позволяющий создавать карты, предполагающие 
+				единственный бой между игроками с предварительной подготовкой;</li>
+				<li>Добавлена возможность в банках существ настраивать уровень банка, артефакты 
+				в награде и наличие или отсутствие улучшенного отряда монстров;</li>
+				<li>Добавлены настройки монстров в редакторе карт: точное настроение, присоединяется 
+				ли только за деньги, процент присоединяющихся монстров, число отрядов, на которое 
+				разделяются монстры, наличие улучшенного отряда;</li>
+				<li>Локальному событию добавлена возможность независимо настраивать срабатывание для игрока-человека и для игрока-компьютера;</li>
+				<li>Добавлен новый объект Врата Задания: требует выполнения задания для прохода, 
+				не исчезает после посещения (для заданий, требующих оплаты, платить нужно за каждый проход);</li>
+				<li>Добавлено два новых типа заданий для Хижины Провидцы (Стража Прохода, Врат Заданий): 
+				"Принадлежать одному из классов" и "Вернуться не раньше даты";</li>
+				<li>Добавлена возможность настраивать несколько заданий Хижине Провидца: 
+				последовательность одноразовых заданий и последовательность заданий, которые можно выполнять по кругу;</li>
+				<li style="margin:0;">Проверка карты теперь учитывает возможность собирать/разбирать 
+				сборные артефакты, когда проверяется существование артефакта для задания.</li>
+			</ul>
+		</div></div>
 		</ol>
 		
 		
