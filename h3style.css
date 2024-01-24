@@ -45,7 +45,7 @@ _:-ms-lang(x), .clearbutton:hover{background-size:18px 16px;}
 }
 #searchlist li{padding:2px 0 2px 4px;font-weight:normal;font-size:14px;}
 #searchlist li:hover{background-color:rgba(0, 255, 255, 0.4);}
-.menu{width:95px;height:310px;background-color:rgba(220, 200, 120, 0.7);float:right;padding:0;margin:0 0px 0px 0;border:50px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;position:sticky;top:5%;}
+.menu{width:95px;height:356px;background-color:rgba(220, 200, 120, 0.7);float:right;padding:0;margin:0 0px 0px 0;border:50px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;position:sticky;top:5%;}
 .menulist{list-style-type:none;position:relative;padding:15px;}
 .menulist a{font-family:Gabriela-Regular;font-size:14px;display:block;width:128px;min-height:25px;background:#58381d;color:#ddc773;border-radius:10px;padding:10px 5px 5px 5px;margin:6px 0 0 -36px;}
 _:-ms-lang(x), .menulist a{width:130px;margin:6px 0 0 -37px;}
