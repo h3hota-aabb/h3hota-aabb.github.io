@@ -123,6 +123,7 @@ _:-ms-lang(x), .menulist a{width:130px;margin:6px 0 0 -37px;}
 .creatureTable td{border:2px solid #000080;}
 .creatureTable .hinttagtext{min-width:10px;left:-35px;}
 .covecrgif{background:url("image/btlbg2.jpg") repeat-x;background-size:cover;background-color:black;width:120px;border:0;padding:0;margin:0;}
+.factorygif{background:url("image/btlbg3.png");background-color:blue;width:120px;border:0;margin:0;}
 .neucrgif{background:url("image/btlbg4.jpg");background-color:blue;width:120px;border:0;margin:0;}
 .creature_img{border:0;margin:0;width:120px;}
 .crinfo{background-color:rgba(0,0,0,0.1);}
