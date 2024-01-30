@@ -55,8 +55,8 @@ _:-ms-lang(x), .menulist a{width:130px;margin:6px 0 0 -37px;}
 .menuelement{position:relative;margin:0;text-align:center;}
 .menulist li ul{z-index:1;width:95px;list-style:none;padding:0;margin:0;position:absolute;left:-227px;border:50px solid;background-color:rgba(220, 200, 120, 0.7);border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;visibility:hidden;opacity:0;transition:0.5s;}
 .submenu_1{height:122px;top:-90px;}
-.submenu_2{height:30px;top:-44px;}
-.submenu_3{height:30px;top:-44px;}
+.submenu_2{height:76px;top:-66px;}
+.submenu_3{height:76px;top:-66px;}
 .menulist li ul li{position:relative;margin:0 0 0 5px;text-align:center;}
 .menulist li ul a{width:140px;margin:6px 0 0 -32px;}
 .menulist li:hover ul{display:block;opacity:1;visibility:visible;}
