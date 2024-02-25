@@ -63,7 +63,9 @@ _:-ms-lang(x), .menulist a{width:160px;margin-bottom:8px;}
 .covetable img{width:26px;}
 .covetable .coveimgtd img{width:180px;margin-bottom:1px;}
 .covemageguild .boxtag{width:680px;}
+.factorymageguild .boxtag{width:830px;}
 .covemageguild .sometables{width:665px;}
+.factorymageguild .sometables{width:915px;}
 .mageguildtable th{font-size:21px;}
 .mageguildtable img{margin:5px 6px 1px 7px;width:50px;height:50px;}
 .mageguildtable .texttd{width:75px;}
