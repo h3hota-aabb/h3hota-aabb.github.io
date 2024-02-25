@@ -109,6 +109,8 @@ _:-ms-lang(x), .menulist a{width:130px;margin:6px 0 0 -37px;}
 .coveimgtd{width:100px;background-color:rgba(0, 0, 0, 0.1);}
 .covemageguild .boxtag{width:550px;}
 .covemageguild .sometables{width:550px;}
+.factorymageguild .boxtag{width:700px;}
+.factorymageguild .sometables{width:700px;}
 .mageguildtable{margin:-10px auto 0 auto;background-color:#F0E68C;border-collapse:collapse;border:2px solid #000080;padding:-10px;text-align:center;float:left;}
 .mageguildtable th{padding:3px 0 3px 0;font-weight:normal;font-size:16px;background-color:#DAA520;}
 .mageguildtable td, .mageguildtable th{border:2px solid #000080;margin:-10px;}
