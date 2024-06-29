@@ -74,13 +74,13 @@ _:-ms-lang(x), .menulist a{width:160px;margin-bottom:8px;}
 .neutrals{height:320px;}
 .creatureTable{font-size:19px;}
 .creatureTable th{font-size:19px;}
+.creatureTable .pricetd{min-width:82px; width:82px;}
 .creatureTable .pricetd img{width:26px;}
 .creatureTable .hinttagtext{left:-45px;top:27px;}
 .covecrgif{width:160px;background-size:cover;}
 .factorygif{{width:160px;}
 .neucrgif{width:160px;}
 .creature_img{width:160px;}
-.creatureTable .pricetd{width:82px;}
 .objects .boxtag{max-width:760px;}
 .objtable{max-width:760px;}
 .objtable th{font-size:21px;}
