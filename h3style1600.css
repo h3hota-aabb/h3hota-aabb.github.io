@@ -80,7 +80,7 @@ _:-ms-lang(x), .menulist a{width:160px;margin-bottom:8px;}
 .factorygif{{width:160px;}
 .neucrgif{width:160px;}
 .creature_img{width:160px;}
-.pricetd{width:82px !important;}
+.creatureTable .pricetd{width:82px;}
 .objects .boxtag{max-width:760px;}
 .objtable{max-width:760px;}
 .objtable th{font-size:21px;}
