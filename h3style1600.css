@@ -30,7 +30,7 @@ _:-ms-lang(x), .clearbutton:hover{background-size:22px 20px;}
 #searchlist li{font-size:17px;}
 @-moz-document url-prefix(){#searchlist{width:283px;}
 }
-.menu{width:125px;height:442px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
+.menu{width:125px;height:392px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;-webkit-border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
 .menulist a{width:158px;min-height:32px;font-size:17px;padding-top:12px;margin-top:0px;margin-bottom:8px;}
 _:-ms-lang(x), .menulist a{width:160px;margin-bottom:8px;}
 .menulist li ul{width:125px;left:-280px;border:60px solid;border-image:url("image/blueframe.png") 50 50 50 50 repeat;}
