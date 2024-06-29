@@ -129,7 +129,7 @@ _:-ms-lang(x), .menulist a{width:130px;margin:6px 0 0 -37px;}
 .neucrgif{background:url("image/btlbg4.jpg");background-color:blue;width:120px;border:0;margin:0;}
 .creature_img{border:0;margin:0;width:120px;}
 .crinfo{background-color:rgba(0,0,0,0.1);}
-.pricetd{width:61px;}
+.creatureTable .pricetd{width:61px;}
 .objects .boxtag{width:75%;min-width:460px;}
 .objtable{margin:0px auto;background:#F0E68C;text-align:left;border:2px solid #000080;border-collapse:collapse;width:86%;min-width:460px;}
 .objtable th{height:26px;font-size:16px;border:0;text-align:left;background-color:#DAA520;padding:2px 0 2px 7px;}
